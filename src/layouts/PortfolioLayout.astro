@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const allProjects = await Astro.glob('../pages/projects/*.md');
+
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout>
+
+    <img src={frontmatter.teaserimage} />
+    <h1>{frontmatter.title}</h1>
+    <p>Project completed on : {frontmatter.date}</p>
+    
+    <slot />
+
+    <h2>See All Projects</h2>
+
+    {allProjects.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+
+</BaseLayout>

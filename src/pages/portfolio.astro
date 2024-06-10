@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = "Portfolio";
+
+const allProjects = await Astro.glob('../pages/projects/*.md');
+---
+
+<BaseLayout pageTitle={pageTitle}>
+	
+	<h1>{pageTitle}</h1>
+
+    {allProjects.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+
+</BaseLayout>

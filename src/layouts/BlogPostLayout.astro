@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const allPosts = await Astro.glob('../pages/posts/*.md');
+
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout>
+
+    <h1>{frontmatter.title}</h1>
+    <p>Date is: {frontmatter.date}</p>
+    
+    <slot />
+
+    <h2>See All Posts</h2>
+
+    {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+
+</BaseLayout>

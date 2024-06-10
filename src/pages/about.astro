@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = "About";
+
+const skills = ['designer', 'coder', 'human being']
+
+---
+
+<BaseLayout pageTitle={pageTitle}>
+	
+	<img src="public/assets/tree.jpg" alt="placeholder">
+
+	<p>About me Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem a obcaecati sunt corrupti, ab sed tempore sequi minus laborum necessitatibus omnis illum odio susc ipit quasi ea amet fugit deserunt cupiditate.</p>
+
+		<ul>
+		{skills.map( (skill) =>  
+			<li>{skill}</li>
+		)}
+		</ul>
+
+</BaseLayout>
