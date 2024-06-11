@@ -85,7 +85,7 @@ footer {
 
 #image-container {
     position: relative;
-    width: 500px;
+    width: 750px;
     margin: 0 auto;
     padding-top: 10rem;
 }
@@ -97,7 +97,7 @@ footer {
 
 #left-eye, #right-eye {
     position: absolute;
-    width: 500px;
+    width: 750px;
     height: auto;
     z-index: 2;
 }
@@ -113,3 +113,121 @@ footer {
     right: 0px;
     padding-top: 10rem;
 }
+
+/*About Page*/
+
+.about-container {
+    display: flex;
+    align-items: center; /* Vertically center the image and text */
+    margin-top: 2rem;
+  }
+  
+.headshot {
+    border-radius: 50%;
+    margin-right: 4rem; /* Add some space between the image and the text */
+    width: 250px; /* Adjust the size as needed */
+    height: 250px; /* Ensure the image maintains a circular shape */
+  }
+
+.quote {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #9966CB;
+    margin-top: 2rem;
+  }
+
+.about-name {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 0.01rem;
+    color: #9966CB;
+}
+
+.about-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 0.01rem;
+    color: #98CB66;
+}
+
+.bio {
+    font-size: 1rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #98CB66;
+}
+
+.header {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+b {
+    font-weight: 600;
+}
+
+br {
+    margin-bottom: 2rem;
+}
+
+.subheader {
+    font-size: 1rem;
+    margin-top: -1rem;
+}
+
+.list {
+    font-size: .85rem;
+    line-height: 2;
+}
+
+.skill-list {
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: .5em;
+    padding: .5em;
+}
+
+.skill-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.kitties {
+    width: 100%; /* Make the image take up 100% of its container's width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-bottom: #9966CB 1rem solid;
+  }
+  
+
+
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .kitties {
+      max-width: 80%; /* Adjust the maximum width for tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .kitties {
+      max-width: 100%; /* Adjust the maximum width for mobile devices */
+    }
+  }
+  
+
+  

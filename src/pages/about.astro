@@ -3,20 +3,123 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = "About";
 
-const skills = ['designer', 'coder', 'human being']
+const name = "SAGE NORTON";
+
+const title = "FRONT-END DEVELOPER";
+
+const quote = "Blending creativity with code.";
+
+const skills = ['Front-End Development', 'User Experience Design', 'User Interface Design', 'Responsive Design', 'Graphic Design', 'Concept Creation', 'Project Management', 'Creative Problem Solving'];
 
 ---
 
 <BaseLayout pageTitle={pageTitle}>
+
+<div class="about-container">
 	
-	<img src="public/assets/tree.jpg" alt="placeholder">
+	<img src="public/assets/illustrated-headshot.jpg" alt="Illustated Headshot" class="headshot">
 
-	<p>About me Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem a obcaecati sunt corrupti, ab sed tempore sequi minus laborum necessitatibus omnis illum odio susc ipit quasi ea amet fugit deserunt cupiditate.</p>
+	 <div class="info">
+    		<p class="about-name">{name}</p>
+    		<p class="about-title">{title}</p>
+			<p class="quote">{quote}</p>
+  	</div>
 
-		<ul>
-		{skills.map( (skill) =>  
-			<li>{skill}</li>
-		)}
+</div>
+
+	<p class="bio">
+		I am Sage, a dedicated and innovative front-end web developer and graphic designer with a knack for creating engaging, user-friendly digital experiences. I specialize in transforming creative concepts into functional web realities, ensuring every design is as intuitive as it is visually appealing. My expertise spans web development, UX/UI design, and custom coding using HTML, CSS, and JavaScript. I have led notable projects, such as the award-winning SFCC 2023 Graphic Design Grad Show website and the Mahalo Promotions website. Currently, I am diving into mobile game development, blending my technical skills with creative vision to craft immersive user interfaces. Passionate about both design and development, I am committed to pushing the boundaries of digital creativity. Beyond my professional endeavors, I am an avid Nintendo enthusiast, a lover of EDM festivals, and a proud cat parent, all of which fuel my creativity and zest for life.
+	</p>
+
+	<br>
+
+	<h2>Education</h2>
+
+		<p class="header">Bachelors in Visual Communication Design</p>
+		<p class="subheader"><b>2025</b> | Eastern Washington University</p>
+
+		<p class="header">Associates in Graphic Design</p>
+		<p class="subheader"><b>2023</b> | Spokane Falls Community College</p>
+
+	<br>
+	
+	<h2>Experience</h2>
+
+		<p class="header">Freelance Front-End Developer</p>
+		<p class="subheader"><b>2022 – Current</b> | Mahalo Promotions</p>
+		<ul class="list">
+		<li>Utilized WordPress and Divi Builder, integrating custom coding for advanced features.</li>
+		<li>Adopted mobile-first design, optimizing for usability and engagement on mobile devices.</li>
+		<li>Structured for easy updates and maintenance, adapting to the dynamic music industry needs.</li>
 		</ul>
+
+		<p class="header">Grad Show Web Director</p>
+		<p class="subheader"><b>2023</b> | Spokane Falls Community College</p>
+		<ul class="list">
+		<li>Directed the Graphic Design Grad Show website, showcasing project management and teamwork skills.</li>
+		<li>Led a team in aligning website design with the “3D” theme through effective collaboration.</li>
+		<li>Managed comprehensive content showcasing event details, portfolios, and sponsor acknowledgments.</li>
+		</ul>
+
+	<br>
+
+	<h2>Achievements</h2>
+
+		<p class="header">Golden Eagle Scholarship</p>
+		<p class="subheader"><b>2024 - 2025</b> | Eastern Washington University</p>
+
+		<p class="header">WAVE Scholarship</p>
+		<p class="subheader"><b>2022 - 2024</b> | SFCC & EWU</p>
+
+		<p class="header">National Student Silver Addy Award</p>
+		<p class="subheader"><b>2023</b> | SFCC Grad Show Website</p>
+
+		<p class="header">Spokane Student Silver Addy Award</p>
+		<p class="subheader"><b>2023</b> | SFCC Grad Show Website</p>
+
+		<p class="header">Spokane Student Ascender Award</p>
+		<p class="subheader"><b>2023</b> | SFCC Grad Show Website</p>
+
+		<p class="header">1st Place Lawton Design Scholarship</p>
+		<p class="subheader"><b>2023</b> | Spokane Falls Community College</p>
+
+	<br>
+
+	<h2>Skills</h2>
+	
+		<ul class="skill-list">
+			{skills.map( (skill) =>  
+				<li>{skill}</li>
+			)}
+		</ul>
+
+	<br>
+
+	<h2>Technologies</h2>
+
+	<div class="skills-container">
+		<img src="/assets/icons/HTML.svg" alt="HTML" class="skill-icon">
+		<img src="/assets/icons/CSS.svg" alt="CSS" class="skill-icon">
+		<img src="/assets/icons/Javascript.svg" alt="Javascript" class="skill-icon">
+		<img src="/assets/icons/Netlify.svg" alt="Netlify" class="skill-icon">
+		<img src="/assets/icons/VisualStudioCode.svg" alt="Visual Studio Code" class="skill-icon">
+		<img src="/assets/icons/github.svg" alt="Github" class="skill-icon">
+		<img src="/assets/icons/Codepen.svg" alt="Codepen" class="skill-icon">
+		<img src="/assets/icons/WordPress.svg" alt="WordPress" class="skill-icon">
+		<img src="/assets/icons/DiviBuilder.svg" alt="Divi Builder" class="skill-icon">
+		<img src="/assets/icons/Figma.svg" alt="Figma" class="skill-icon">
+		<img src="/assets/icons/Illustrator.svg" alt="Illustrator" class="skill-icon">
+		<img src="/assets/icons/Photoshop.svg" alt="Photoshop" class="skill-icon">
+		<img src="/assets/icons/InDesign.svg" alt="InDesign" class="skill-icon">
+		<img src="/assets/icons/AfterEffects.svg" alt="After Effects" class="skill-icon">
+	</div>
+
+	<br>
+
+	<h2>My Inspiration</h2>
+
+	<img src="/assets/all4.png" alt="My Muses" class="kitties">
+
+	<br>
 
 </BaseLayout>
