@@ -85,9 +85,9 @@ footer {
 
 #image-container {
     position: relative;
-    width: 750px;
+    width: 500px;
     margin: 0 auto;
-    padding-top: 10rem;
+    padding-top: 7rem;
 }
 
 #cat-face {
@@ -97,21 +97,20 @@ footer {
 
 #left-eye, #right-eye {
     position: absolute;
-    width: 750px;
+    width: 500px;
     height: auto;
     z-index: 2;
+    padding-top: 7rem;
 }
 
 #left-eye {
     top: 0px;
     left: 0px;
-    padding-top: 10rem;
 }
 
 #right-eye {
     top: 0px;
     right: 0px;
-    padding-top: 10rem;
 }
 
 /*About Page*/
@@ -174,12 +173,17 @@ b {
 }
 
 br {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .subheader {
     font-size: 1rem;
     margin-top: -1rem;
+}
+
+.certificates {
+    font-size: .85rem;
+    margin-top: -.75rem;
 }
 
 .list {
@@ -218,14 +222,46 @@ br {
 
   /* Responsive Design */
   @media (max-width: 768px) {
+
     .kitties {
       max-width: 80%; /* Adjust the maximum width for tablets */
+    }
+
+    #image-container {
+        position: relative;
+        width: 250px;
+        margin: 0 auto;
+        padding-top: 5rem;
+    }
+
+    #left-eye, #right-eye {
+        position: absolute;
+        width: 250px;
+        height: auto;
+        z-index: 2;
+        padding-top: 5rem;
     }
   }
   
   @media (max-width: 480px) {
+
     .kitties {
       max-width: 100%; /* Adjust the maximum width for mobile devices */
+    }
+
+    #image-container {
+        position: relative;
+        width: 100px;
+        margin: 0 auto;
+        padding-top: 3rem;
+    }
+
+    #left-eye, #right-eye {
+        position: absolute;
+        width: 100px;
+        height: auto;
+        z-index: 2;
+        padding-top: 3rem;
     }
   }
   
