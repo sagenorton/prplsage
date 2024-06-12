@@ -1,21 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const allProjects = await Astro.glob('../pages/projects/*.md');
+import PortfolioNav from '../components/PortfolioNav.astro';
 
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout>
-
-    <img src={frontmatter.teaserimage} />
+    <img src={frontmatter.teaserimage} alt={`Teaser image for ${frontmatter.title}`} />
     <h1>{frontmatter.title}</h1>
-    <p>Project completed on : {frontmatter.date}</p>
+    <p>Project completed on: {frontmatter.date}</p>
     
-    <slot />
+    <slot />  <!-- This will render the markdown content -->
 
-    <h2>See All Projects</h2>
-
-    {allProjects.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+    <!-- Position the navigation bar at the bottom -->
+    <PortfolioNav />
 
 </BaseLayout>

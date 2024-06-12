@@ -13,7 +13,6 @@ body {
 }
   
 main {
-
     width: 800px;
     max-width: 90%;
     margin: auto;
@@ -45,6 +44,8 @@ nav a.active {
     font-weight: 900;
 }
 
+
+/* Footer */
 footer {
     display: flex;
     justify-content: space-between;
@@ -159,7 +160,7 @@ footer {
 }
 
 h2 {
-    color: #98CB66;
+    color: hsl(90, 49%, 60%);
 }
 
 .header {
@@ -214,13 +215,97 @@ br {
     height: auto; /* Maintain the aspect ratio */
     display: block;
     margin: 0 auto; /* Center the image */
-    border-bottom: #9966CB 1rem solid;
+    border-bottom: hsl(270, 49%, 60%) 1rem solid;
   }
-  
+
+
+/* Portfolio Nav */
+
+.portfolio-nav {
+    width: 100%;
+}
+
+.portfolio-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly; /* Even spacing throughout */
+    align-items: center; /* Align items vertically */
+    width: 100%; /* Ensure full width */
+}
+
+.menu-item {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+}
+
+.menu-item:hover .hover {
+    display: block;
+}
+
+.dropdown-item {
+    white-space: nowrap;
+}
+
+.dropdown-item a {
+    display: block;
+    padding: 8px 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-item a:hover {
+    color: hsl(270, 49%, 60%); /* Updated hover color */
+}
+
+/* Custom Button Styles */
+.portfolio-menu button {
+    background-color: hsl(270, 49%, 60%); /* Custom purple color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.portfolio-menu button:hover {
+    background-color: hsl(90, 49%, 60%); /* Slightly lighter purple on hover */
+}
+
 
 
 
   /* Responsive Design */
+
+  @media (min-width: 1500px) {
+
+    #image-container {
+        position: relative;
+        width: 700px;
+        margin: 0 auto;
+        padding-top: 10rem;
+    }
+
+    #left-eye, #right-eye {
+        position: absolute;
+        width: 700px;
+        height: auto;
+        z-index: 2;
+        padding-top: 10rem;
+    }
+  }
+  
   @media (max-width: 768px) {
 
     .kitties {
@@ -229,14 +314,14 @@ br {
 
     #image-container {
         position: relative;
-        width: 250px;
+        width: 350px;
         margin: 0 auto;
         padding-top: 5rem;
     }
 
     #left-eye, #right-eye {
         position: absolute;
-        width: 250px;
+        width: 350px;
         height: auto;
         z-index: 2;
         padding-top: 5rem;
@@ -251,14 +336,14 @@ br {
 
     #image-container {
         position: relative;
-        width: 100px;
+        width: 200px;
         margin: 0 auto;
         padding-top: 3rem;
     }
 
     #left-eye, #right-eye {
         position: absolute;
-        width: 100px;
+        width: 200px;
         height: auto;
         z-index: 2;
         padding-top: 3rem;
