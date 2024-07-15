@@ -40,8 +40,14 @@ nav a {
 
 nav a.active {
     color: #98CB66;
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+nav a:not(.active):hover {
+    color: #98CB66;
+    font-size: 1.75rem;
+    font-weight: 800;
 }
 
 
@@ -62,17 +68,16 @@ footer {
 
 .full-name {
     font-size: 1.37rem;
-    font-weight: 900;
+    font-weight: 800;
     margin: 0;
-    padding-bottom: 0.01rem;
     color: #9966CB;
+    margin-top: -.25rem;
 }
 
 .title {
     font-size: .82rem;
     font-weight: 700;
     margin: 0;
-    padding-top: 0.01rem;
     color: #98CB66;
 }
 
@@ -161,12 +166,14 @@ footer {
 
 h2 {
     color: hsl(90, 49%, 60%);
+    margin-bottom: -1rem;
+    margin-top: 2rem;
 }
 
 .header {
     font-size: 1.25rem;
     margin-top: 2rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 b {
@@ -174,7 +181,7 @@ b {
 }
 
 br {
-    margin-bottom: 1rem;
+    margin-bottom: .25rem;
 }
 
 .subheader {
@@ -220,7 +227,6 @@ br {
 
 
 /* Portfolio Nav */
-
 .portfolio-nav {
     width: 100%;
 }
@@ -230,57 +236,29 @@ br {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-evenly; /* Even spacing throughout */
-    align-items: center; /* Align items vertically */
-    width: 100%; /* Ensure full width */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 
 .menu-item {
     position: relative;
 }
 
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    z-index: 1000;
-    top: 100%;
-    left: 0;
-}
-
-.menu-item:hover .hover {
-    display: block;
-}
-
-.dropdown-item {
-    white-space: nowrap;
-}
-
-.dropdown-item a {
-    display: block;
-    padding: 8px 16px;
-    color: #333;
-    text-decoration: none;
-}
-
-.dropdown-item a:hover {
-    color: hsl(270, 49%, 60%); /* Updated hover color */
-}
-
 /* Custom Button Styles */
-.portfolio-menu button {
-    background-color: hsl(270, 49%, 60%); /* Custom purple color */
-    color: #fff; /* White text color */
+.category-button {
+    background-color: hsl(270, 49%, 60%);
+    color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.portfolio-menu button:hover {
-    background-color: hsl(90, 49%, 60%); /* Slightly lighter purple on hover */
+.category-button:hover {
+    background-color: hsl(90, 49%, 60%);
 }
 
 

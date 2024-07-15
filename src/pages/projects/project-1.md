@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/PortfolioLayout.astro
-title: 'Dynamic Web Design Project'
+title: '2023 SFCC Grad Show'
 date: '2022-07-15'
 teaserimage: '/public/assets/teaser.jpg'
-category: 'Web Design'
+category: 'WEB DESIGN'
 images:
   - '/public/assets/project1.jpg'
   - '/public/assets/project2.jpg'
