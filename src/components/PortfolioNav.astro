@@ -23,11 +23,6 @@ allProjects.forEach(project => {
         {Object.keys(categories).map(category => (
             <li class="menu-item">
                 <button>{category}</button>
-                <ul class="dropdown-menu">
-                    {categories[category].map(project => (
-                        <li class="dropdown-item"><a href={project.url}>{project.frontmatter.title}</a></li>
-                    ))}
-                </ul>
             </li>
         ))}
     </ul>

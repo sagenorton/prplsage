@@ -227,6 +227,7 @@ br {
 
 
 /* Portfolio Nav */
+
 .portfolio-nav {
     width: 100%;
 }
@@ -236,29 +237,33 @@ br {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
+    justify-content: space-evenly; /* Even spacing throughout */
+    align-items: center; /* Align items vertically */
+    width: 100%; /* Ensure full width */
 }
 
 .menu-item {
     position: relative;
 }
 
+.menu-item:hover .hover {
+    display: block;
+}
+
 /* Custom Button Styles */
-.category-button {
-    background-color: hsl(270, 49%, 60%);
-    color: #fff;
+.portfolio-menu button {
+    background-color: hsl(270, 49%, 60%); /* Custom purple color */
+    color: #fff; /* White text color */
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 5px; /* Rounded corners */
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.category-button:hover {
-    background-color: hsl(90, 49%, 60%);
+.portfolio-menu button:hover {
+    background-color: hsl(90, 49%, 60%); /* Slightly lighter purple on hover */
 }
 
 
