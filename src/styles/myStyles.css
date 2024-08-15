@@ -356,7 +356,7 @@ br {
     .full-name {
         font-size: .8rem;
         font-weight: 800;
-        margin: 0;
+        margin-top: 10px;
         color: #9966CB;
     }
     
@@ -375,14 +375,14 @@ br {
 
     .skills-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
         gap: .1em;
         padding: .1em;
     }
 
     .skill-icon {
-        width: 1.75rem;
-        height: 1.75rem;
+        width: 1.85rem;
+        height: 1.85rem;
     }
 
     .about-name {
@@ -394,6 +394,6 @@ br {
     }
 
     .bio {
-        font-size: .8rem;
+        font-size: .85rem;
     }
   }
