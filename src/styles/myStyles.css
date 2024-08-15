@@ -406,14 +406,14 @@ br {
     }
     
     .full-name {
-        font-size: 1.2rem;
+        font-size: .75rem;
         font-weight: 800;
         margin: 0;
         color: #9966CB;
     }
     
     .title {
-        font-size: .72rem;
+        font-size: .5rem;
         font-weight: 700;
         margin: 0;
         color: #98CB66;
@@ -427,10 +427,23 @@ br {
     }
 
     .skill-icon {
-        width: 3rem;
-        height: 3rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    footer {
+        margin-top: -2rem;
+    }
+
+    .about-name {
+        font-size: 2rem;
+    }
+
+    .about-title {
+        font-size: 1.5rem;
+    }
+
+    .body {
+        font-size: 1rem;
     }
   }
-  
-
-  
