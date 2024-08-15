@@ -347,6 +347,10 @@ br {
         padding-top: 3rem;
     }
 
+    footer {
+        margin-top: -2rem;
+    }
+
     .text-container {
         display: flex;
         flex-direction: column;
@@ -354,9 +358,9 @@ br {
     }
     
     .full-name {
-        font-size: .85rem;
+        font-size: .9rem;
         font-weight: 800;
-        margin-top: -1rem;
+        margin-top: -1.2rem;
         color: #9966CB;
     }
     
@@ -381,8 +385,8 @@ br {
     }
 
     .skill-icon {
-        width: 1.85rem;
-        height: 1.85rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     .about-name {
