@@ -375,14 +375,14 @@ br {
 
     .skills-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
         gap: .1em;
         padding: .1em;
     }
 
     .skill-icon {
-        width: 1.6rem;
-        height: 1.6rem;
+        width: 1.75rem;
+        height: 1.75rem;
     }
 
     footer {
@@ -398,6 +398,6 @@ br {
     }
 
     .bio {
-        font-size: .75rem;
+        font-size: .8rem;
     }
   }
