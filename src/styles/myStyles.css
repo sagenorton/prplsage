@@ -145,7 +145,7 @@ footer {
   @media (max-width: 834px) {
 
     #image-container {
-        padding-bottom: 0;
+        margin-bottom: -50;
     }    
 
     .text-container {
