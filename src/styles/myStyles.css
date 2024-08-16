@@ -154,7 +154,6 @@ footer {
         width: 450px;
         margin: 0 auto;
         padding-top: 5rem;
-        margin-bottom: -5rem;
     }
 
     #left-eye, #right-eye {
@@ -189,6 +188,10 @@ footer {
         padding: 0;
     }
 
+    .homepage footer {
+        margin-bottom: 5rem;
+    }
+
   }
   
   @media (max-width: 480px) {
@@ -216,11 +219,11 @@ footer {
     .full-name {
         font-size: 1rem;
         font-weight: 900;
-        padding-top: .69rem;
+        padding-top: .6rem;
     }
     
     .title {
-        font-size: .61rem;
+        font-size: .605rem;
         font-weight: 700;
     }
 
