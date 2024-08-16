@@ -350,26 +350,16 @@ br {
     footer {
        margin-top: -2rem;
     }
-
-    .text-container {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        padding-top: 1.75rem;
-    }
     
     .full-name {
         font-size: 1rem;
         font-weight: 900;
-        margin: 0;
-        color: #9966CB;
+        padding-top: 2rem;
     }
     
     .title {
-        font-size: .55rem;
+        font-size: .58rem;
         font-weight: 700;
-        margin: 0;
-        color: #98CB66;
     }
 
     .icon {
@@ -380,7 +370,7 @@ br {
 
     .skills-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
         gap: .1em;
         padding: .1em;
     }
@@ -399,10 +389,18 @@ br {
     }
 
     .bio {
-        font-size: .82rem;
+        font-size: .8rem;
     }
 
     .header {
         font-size: 1rem;
+    }
+
+    .subheader {
+        font-size: .85rem;
+    }
+
+    .index-page footer {
+        margin-top: -2rem;
     }
   }
