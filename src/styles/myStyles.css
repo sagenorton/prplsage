@@ -190,6 +190,10 @@ footer {
         color: #98CB66;
     }
 
+    footer {
+        padding: 0;
+    }
+
   }
   
   @media (max-width: 480px) {
