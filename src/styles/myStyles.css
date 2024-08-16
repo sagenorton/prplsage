@@ -178,7 +178,7 @@ footer {
   @media (max-width: 480px) {
 
     main {
-        min-height: 90vh;
+        min-height: 85vh;
     }
 
     #image-container {
@@ -197,7 +197,7 @@ footer {
     }
 
     .text-container {
-        padding-top: 10px;
+        padding-top: 15px;
     }
     
     .full-name {
