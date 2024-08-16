@@ -144,10 +144,8 @@ footer {
   
   @media (max-width: 834px) {
 
-    #image-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+    .homepage.content {
+        margin-bottom: o;
     }
        
 
