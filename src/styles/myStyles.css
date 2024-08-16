@@ -40,10 +40,10 @@ nav a {
     color: #9966CB;
 }
 
-.nav-link.active {
-    color: #98CB66;
-    font-size: 2.5rem;
-    font-weight: 800;
+nav a.active {
+    color: #98CB66 !important;
+    font-size: 2.5rem !important;
+    font-weight: 800 !important;
 }
 
 nav a:not(.active):hover {
