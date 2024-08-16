@@ -111,7 +111,7 @@ br {
 
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 834px) {
 
     .kitties {
       max-width: 80%; /* Adjust the maximum width for tablets */
