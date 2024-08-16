@@ -172,12 +172,6 @@ footer {
         margin-top: -5rem;
     }
 
-    nav a.active {
-        color: #98CB66 !important;
-        font-size: 2rem !important;
-        font-weight: 800 !important;
-    }
-
   }
   
   @media (max-width: 480px) {
@@ -200,7 +194,7 @@ footer {
     .full-name {
         font-size: 1.01rem;
         font-weight: 900;
-        padding-top: .405rem;
+        padding-top: .41rem;
     }
     
     .title {
