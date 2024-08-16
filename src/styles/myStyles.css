@@ -355,18 +355,18 @@ br {
         display: flex;
         flex-direction: column;
         margin: 0;
-        padding-top: 1.5rem;
+        padding-top: 1.75rem;
     }
     
     .full-name {
-        font-size: .9rem;
-        font-weight: 800;
+        font-size: 1rem;
+        font-weight: 900;
         margin: 0;
         color: #9966CB;
     }
     
     .title {
-        font-size: .6rem;
+        font-size: .55rem;
         font-weight: 700;
         margin: 0;
         color: #98CB66;
@@ -386,8 +386,8 @@ br {
     }
 
     .skill-icon {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .about-name {
