@@ -22,7 +22,7 @@ main {
 }
 
 .content {
-    flex-basis: 1;
+    flex-basis: auto;
 }
 
 /* Main Navigation */
