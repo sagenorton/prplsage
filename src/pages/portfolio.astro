@@ -18,21 +18,5 @@ const projectsByCategory = allProjects.reduce((acc, project) => {
 
 <BaseLayout pageTitle={pageTitle}>
 
-    {Object.entries(projectsByCategory).map(([category, projects]) => (
-        <div class="category-section">
-            <h1 class="category-title">{category}</h1>
-            {projects.map((post) => {
-                const projectUrl = `/projects/${post.file.split('/').pop().replace('.md', '')}`;
-                return (
-                    <a href={projectUrl} class="project-link">
-                        <div class="project-item">
-                            <img src={post.frontmatter.teaserImage} alt={post.frontmatter.title} class="project-teaser-image" />
-                            <h2 class="project-title">{post.frontmatter.title}</h2>
-                            <p class="project-description">{post.frontmatter.description}</p>
-                        </div>
-                    </a>
-                );
-            })}
-        </div>
-    ))}
+    
 </BaseLayout>
