@@ -216,17 +216,17 @@ footer {
     .full-name {
         font-size: 1rem;
         font-weight: 900;
-        padding-top: .75rem;
+        padding-top: .69rem;
     }
     
     .title {
-        font-size: .58rem;
+        font-size: .6rem;
         font-weight: 700;
     }
 
     .icon {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
         margin: 0 0.5rem;
     }
 

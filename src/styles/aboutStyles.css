@@ -114,7 +114,7 @@ br {
   @media (max-width: 834px) {
 
     .kitties {
-      max-width: 80%; /* Adjust the maximum width for tablets */
+      max-width: 90%; /* Adjust the maximum width for tablets */
     }
 
     .about-container {
@@ -131,14 +131,14 @@ br {
 
     .skills-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(55px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
         gap: .2em;
         padding: .2em;
     }
 
     .skill-icon {
-        width: 3.75rem;
-        height: 3.75rem;
+        width: 4rem;
+        height: 4rem;
     }
   }
   
