@@ -354,6 +354,7 @@ br {
     .full-name {
         font-size: 1rem;
         font-weight: 900;
+        padding-top: 1rem;
     }
     
     .title {
@@ -369,7 +370,7 @@ br {
 
     .skills-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
         gap: .1em;
         padding: .1em;
     }
