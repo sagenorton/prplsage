@@ -355,7 +355,7 @@ br {
         display: flex;
         flex-direction: column;
         margin: 0;
-        padding-top: 1rem;
+        padding-top: 1.5rem;
     }
     
     .full-name {
@@ -373,8 +373,8 @@ br {
     }
 
     .icon {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
         margin: 0 0.5rem;
     }
 
@@ -386,8 +386,8 @@ br {
     }
 
     .skill-icon {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     .about-name {
@@ -399,6 +399,6 @@ br {
     }
 
     .bio {
-        font-size: .88rem;
+        font-size: .86rem;
     }
   }
