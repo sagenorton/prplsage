@@ -145,7 +145,7 @@ footer {
   @media (max-width: 834px) {
 
     #image-container {
-        margin-bottom: 0;
+        padding-bottom: 0;
     }    
 
     .text-container {
@@ -194,7 +194,7 @@ footer {
     .full-name {
         font-size: 1.01rem;
         font-weight: 900;
-        padding-top: .41rem;
+        padding-top: .42rem;
     }
     
     .title {
