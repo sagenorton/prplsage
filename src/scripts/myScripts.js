@@ -1,14 +1,13 @@
 console.log('OK');
 
-document.addEventListener('DOMContentLoaded', function () {
-    const currentLocation = window.location.pathname;
-    const menuItems = document.querySelectorAll('nav a');
+// Set active class on the current nav link
+const currentPath = window.location.pathname;
+const navLinks = document.querySelectorAll('nav a');
 
-    menuItems.forEach(item => {
-        if (item.getAttribute('href') === currentLocation) {
-            item.classList.add('active');
-        }
-    });
+navLinks.forEach(link => {
+    if (link.getAttribute('href') === currentPath) {
+        link.classList.add('active');
+    }
 });
 
 
