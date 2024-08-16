@@ -177,10 +177,6 @@ footer {
   
   @media (max-width: 480px) {
 
-    main {
-        min-height: 80vh;
-    }
-
     #image-container {
         position: relative;
         width: 300px;
@@ -199,7 +195,7 @@ footer {
     .full-name {
         font-size: 1.01rem;
         font-weight: 900;
-        padding-top: .43rem;
+        padding-top: .45rem;
     }
     
     .title {
