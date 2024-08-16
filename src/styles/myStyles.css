@@ -41,9 +41,9 @@ nav a {
 }
 
 nav a.active {
-    color: #98CB66 !important;
-    font-size: 2.5rem !important;
-    font-weight: 800 !important;
+    color: #98CB66;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 
 nav a:not(.active):hover {
