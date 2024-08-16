@@ -199,7 +199,7 @@ footer {
     .full-name {
         font-size: 1.01rem;
         font-weight: 900;
-        margin-top: .5rem;
+        padding-top: .5rem;
     }
     
     .title {
