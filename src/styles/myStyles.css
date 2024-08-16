@@ -144,6 +144,10 @@ footer {
   
   @media (max-width: 834px) {
 
+    #image-container {
+        margin-bottom: 0;
+    }    
+
     .text-container {
         display: flex;
         flex-direction: column;
@@ -196,7 +200,7 @@ footer {
     .full-name {
         font-size: 1.01rem;
         font-weight: 900;
-        padding-top: .4rem;
+        padding-top: .405rem;
     }
     
     .title {

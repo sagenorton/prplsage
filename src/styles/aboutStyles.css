@@ -137,11 +137,6 @@ br {
         height: 5rem;
     }
 
-    nav a.active {
-        color: #98CB66 !important;
-        font-size: 2rem !important;
-        font-weight: 800 !important;
-    }
   }
   
   @media (max-width: 480px) {
@@ -176,11 +171,5 @@ br {
 
     .subheader {
         font-size: .9rem;
-    }
-
-    nav a.active {
-        color: #98CB66 !important;
-        font-size: 1.5rem !important;
-        font-weight: 800 !important;
     }
   }
