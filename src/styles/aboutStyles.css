@@ -113,10 +113,6 @@ br {
   
   @media (max-width: 834px) {
 
-    .kitties {
-      max-width: 90%; /* Adjust the maximum width for tablets */
-    }
-
     .about-container {
         flex-direction: column;
         align-items: center; /* Center items horizontally */
@@ -143,10 +139,6 @@ br {
   }
   
   @media (max-width: 480px) {
-
-    .kitties {
-      max-width: 100%; /* Adjust the maximum width for mobile devices */
-    }
 
     .skills-container {
         display: grid;
