@@ -131,14 +131,14 @@ br {
 
     .skills-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(55px, 1fr));
         gap: .2em;
         padding: .2em;
     }
 
     .skill-icon {
-        width: 4rem;
-        height: 4rem;
+        width: 3.75rem;
+        height: 3.75rem;
     }
   }
   
@@ -150,14 +150,14 @@ br {
 
     .skills-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
         gap: .1em;
         padding: .1em;
     }
 
     .skill-icon {
-        width: 3rem;
-        height: 3rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     .about-name {
