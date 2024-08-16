@@ -145,7 +145,7 @@ footer {
   @media (max-width: 834px) {
 
     main {
-        min-height: 80vh;
+        min-height: 90vh;
     }
        
 
@@ -178,7 +178,7 @@ footer {
   @media (max-width: 480px) {
 
     main {
-        min-height: 70vh;
+        min-height: 75vh;
     }
 
     #image-container {
