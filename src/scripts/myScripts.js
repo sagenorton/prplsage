@@ -1,15 +1,16 @@
 console.log('OK');
 
-document.addEventListener('DOMContentLoaded', function() {
-    var navLinks = document.querySelectorAll('nav a');
-    var currentUrl = window.location.href;
+document.addEventListener('DOMContentLoaded', function () {
+    const currentLocation = window.location.pathname;
+    const menuItems = document.querySelectorAll('nav a');
 
-    navLinks.forEach(function(link) {
-        if (link.href === currentUrl) {
-            link.classList.add('active');
+    menuItems.forEach(item => {
+        if (item.getAttribute('href') === currentLocation) {
+            item.classList.add('active');
         }
     });
 });
+
 
 //FOLLOW CURSOR
 document.addEventListener('mousemove', function(event) {
