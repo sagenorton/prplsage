@@ -1,11 +1,16 @@
 console.log('OK');
 
-// Set active class on the current nav link
+// Get the current path
 const currentPath = window.location.pathname;
+
+// Select all navigation links
 const navLinks = document.querySelectorAll('nav a');
 
+// Loop through each link and add the "active" class if it matches the current path
 navLinks.forEach(link => {
-    if (link.getAttribute('href') === currentPath) {
+    // Normalize paths to handle trailing slashes
+    const linkPath = new URL(link.href).pathname;
+    if (linkPath === currentPath) {
         link.classList.add('active');
     }
 });
