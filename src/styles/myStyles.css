@@ -177,6 +177,10 @@ footer {
   
   @media (max-width: 480px) {
 
+    main {
+        min-height: 70vh;
+    }
+
     #image-container {
         position: relative;
         width: 300px;
