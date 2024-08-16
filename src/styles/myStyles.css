@@ -354,7 +354,6 @@ br {
     .full-name {
         font-size: 1rem;
         font-weight: 900;
-        padding-top: 2rem;
     }
     
     .title {
@@ -376,8 +375,8 @@ br {
     }
 
     .skill-icon {
-        width: 3rem;
-        height: 3rem;
+        width: 2.8rem;
+        height: 2.8rem;
     }
 
     .about-name {
@@ -397,7 +396,7 @@ br {
     }
 
     .subheader {
-        font-size: .85rem;
+        font-size: .9rem;
     }
 
     .index-page footer {
