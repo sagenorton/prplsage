@@ -1,7 +1,10 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-const allProjects = await Astro.glob('../pages/projects/*.md');
+// apply stylesheets
+import "../styles/workStyles.css";
+
+const allProjects = await Astro.glob("../pages/projects/*.md");
 
 const { frontmatter } = Astro.props;
 ---
@@ -9,12 +12,22 @@ const { frontmatter } = Astro.props;
 <BaseLayout>
     <img src={frontmatter.teaserimage} />
     <h1>{frontmatter.title}</h1>
-    <p>Project completed on : {frontmatter.date}</p>
-    
+    <p class="date" >Project completed on: {frontmatter.date}</p>
+    <p class="category" >Category: {frontmatter.category}</p>
+    <p class="link" >Link: {frontmatter.link}</p>
+    <ul>
+        <p class="tools">Tools:</p>
+		{frontmatter.tools.map( (tool) =>  
+			<li>{tool}</li>
+		)}
+		</ul>
+
     <slot />
 
-    <h2>See All Projects</h2>
-
-    {allProjects.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+    <ul>
+		{frontmatter.images.map( (image) =>  
+			<li>{image}</li>
+		)}
+		</ul>
 
 </BaseLayout>

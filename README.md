@@ -1,47 +1,42 @@
-# Astro Starter Kit: Minimal
+# PRPL SAGE Portfolio
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Welcome to my professional portfolio site, **PRPL SAGE**. This site serves as a showcase of my skills and experiences as a front-end developer, aspiring game developer, UX/UI designer, and graphic designer.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Clean Design**: A modern, clean layout that emphasizes simplicity and clarity.
+- **Interactive Homepage**: Engaging interactions to capture visitors' attention right from the start.
+- **Responsive**: Fully responsive design to ensure a seamless experience across all devices.
+- **Easy Navigation**: Intuitive navigation for easy access to all sections of the site.
 
-## 🚀 Project Structure
+## About the Project
 
-Inside of your Astro project, you'll see the following folders and files:
+This portfolio site is built using [Astro](https://astro.build/), a powerful static site generator. The site is deployed on [Netlify](https://www.netlify.com/), providing fast and reliable hosting.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Pages
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- **About Me**: A comprehensive overview of my professional background, skills, and experience, presented in a resume-like format.
+- **Work**: A curated selection of my projects, showcasing my work in front-end development, UX/UI design, graphic design, and more.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Technologies Used
 
-Any static assets, like images, can be placed in the `public/` directory.
+- **Astro**: Static site generator for building the site.
+- **GitHub**: Version control and collaboration.
+- **Netlify**: Deployment platform.
 
-## 🧞 Commands
+## Getting Started
 
-All commands are run from the root of the project, from a terminal:
+To run this project locally, you'll need to clone the repository and install the dependencies.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/your-repo-name.git
 
-## 👀 Want to learn more?
+# Navigate into the directory
+cd your-repo-name
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev

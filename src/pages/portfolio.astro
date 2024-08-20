@@ -1,22 +1,20 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// apply stylesheets
+import '../styles/workStyles.css';
 
 const pageTitle = "WORK";
 
-const allProjects = await Astro.glob('../pages/projects/*.md');
-
-// Group projects by category
-const projectsByCategory = allProjects.reduce((acc, project) => {
-    const category = project.frontmatter.category || 'Uncategorized';
-    if (!acc[category]) {
-        acc[category] = [];
-    }
-    acc[category].push(project);
-    return acc;
-}, {});
+const allProjects = await Astro.glob("../pages/projects/*.md");
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-
-    
+    {
+        allProjects.map((post) => (
+            <li>
+                <a href={post.url}>{post.frontmatter.title}</a>
+            </li>
+        ))
+    }
 </BaseLayout>
