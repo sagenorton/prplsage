@@ -51,7 +51,7 @@ h2 {
 }
 
 .header {
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-top: 2rem;
     font-weight: 700;
 }
@@ -65,12 +65,12 @@ br {
 }
 
 .subheader {
-    font-size: 1rem;
+    font-size: .9rem;
     margin-top: -1rem;
 }
 
 .certificates {
-    font-size: .85rem;
+    font-size: .8rem;
     margin-top: -.75rem;
 }
 
@@ -105,6 +105,24 @@ br {
     border-bottom: hsl(270, 49%, 60%) 1rem solid;
   }
 
+  .columns {
+    display: flex; 
+    align-items: stretch;
+}
+
+.column-one {
+    flex: 1; 
+    padding-right: 10px;
+}
+
+.column-two {
+    flex: 1; 
+    padding-left: 10px;
+}
+
+.achievements .subheader {
+    margin-bottom: -1rem;
+ }
 
   /* Responsive Design */
 

@@ -49,3 +49,18 @@
 .images {
     text-decoration: none;
 }
+
+.project-info {
+    display: flex; 
+    align-items: stretch;
+}
+
+.column-one {
+    flex: 1; 
+    padding-right: 10px;
+}
+
+.column-two {
+    flex: 1; 
+    padding-left: 10px;
+}

@@ -10,8 +10,8 @@ images:
 link: 'unfortunately this site is unavailable'
 ---
 
-<div style="display: flex; align-items: stretch;">
-    <div style="flex: 1; padding-right: 10px;">
+<div class="project-info">
+    <div  class="column-one">
 
 <div class="head">
 
@@ -37,7 +37,7 @@ The website was crafted to capture the essence of the 2023 Graphic Design Grad S
 
 The website successfully showcased the graduating class, earning a Silver Addy Award at both the Spokane AAF and national level. I received the Ascender Award for my leadership as Web Director, highlighting my role in design, development, and collaboration. The project exceeded its objectives, delivering a memorable experience for visitors.
 </div>
-<div style="flex: 1; padding-left: 10px;">
+<div class="column-two">
 
 <div class="head">
 
