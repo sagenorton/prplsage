@@ -1,0 +1,40 @@
+.teaser-image {
+    width: 75%; /* Make the image take up 100% of its container's width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+.project-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 0.01rem;
+    color: #9966CB;
+}
+
+.category {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.head {
+    font-size: 1.8rem !important;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 0.01rem;
+    color: #98CB66;
+}
+
+.tool-list {
+    line-height: 1.5;
+}
+
+.images {
+    text-decoration: none;
+}

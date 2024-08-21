@@ -1,21 +1,27 @@
 ---
-layout: ../../layouts/PortfolioLayout.astro
+layout: ../../layouts/WorkLayout.astro
 title: 'Mahalo Promotions'
-date: '2022-07-15'
-teaserimage: '/public/assets/teaser.jpg'
+date: '2021-11 to Present'
+teaserimage: '/public/assets/SFCCgradShowTeaser.png'
 category: 'WEB DESIGN'
 images:
   - '/public/assets/project1.jpg'
   - '/public/assets/project2.jpg'
   - '/public/assets/project3.jpg'
-tools: ['HTML', 'CSS', 'JavaScript', 'Astro']
-link: 'https://example.com'
+tools: ['WordPress', 'Divi Builder', 'HTML', 'CSS', 'JavaScript', 'Adobe Illustrator', 'Adobe PhotoShop']
+link: 'https://mahalopromotions.com/'
 ---
 ## Overview
-This project involves designing a dynamic and responsive web layout using HTML, CSS, and JavaScript, incorporating Astro for better performance.
 
-## Details
-The project focused on enhancing user experience through innovative design solutions and interactive elements.
+
+## Project Details
+
+
+## Technical & Design Features
+* **Mobile-First Design:** Prioritized usability and engagement on mobile devices, ensuring a seamless experience for users on smaller screens.
+* **Minimalist Aesthetics:** Implemented a clean, simple interface that highlights content and facilitates easy navigation.
+* **Custom Coding:** Utilized custom HTML, CSS, and JavaScript to enhance the website beyond basic WordPress and Divi functionalities, creating unique features specific to the client's needs.
+* **Responsive Design:** Built the site to adapt smoothly to different screen sizes, ensuring consistency across all devices.
+* **Maintenance and Updates:** Designed the website for easy updates and maintenance, allowing it to stay current and functional in the dynamic music industry.
 
 ## Conclusion
-This project was pivotal in understanding real-world applications of frontend technologies and provided significant insights into user-centered design.

@@ -10,13 +10,13 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout>
-    <img src={frontmatter.teaserimage} />
-    <h1>{frontmatter.title}</h1>
-    <p class="date" >Project completed on: {frontmatter.date}</p>
-    <p class="category" >Category: {frontmatter.category}</p>
-    <p class="link" >Link: {frontmatter.link}</p>
-    <ul>
-        <p class="tools">Tools:</p>
+    <img src={frontmatter.teaserimage} class="teaser-image" />
+    <p class="project-title">{frontmatter.title}</p>
+    <p class="date" >{frontmatter.date}</p>
+    <p class="category" >{frontmatter.category}</p>
+    <p class="link" >{frontmatter.link}</p>
+    <p class="head">Tools</p>
+    <ul class="tool-list">
 		{frontmatter.tools.map( (tool) =>  
 			<li>{tool}</li>
 		)}
@@ -24,7 +24,7 @@ const { frontmatter } = Astro.props;
 
     <slot />
 
-    <ul>
+    <ul class="images">
 		{frontmatter.images.map( (image) =>  
 			<li>{image}</li>
 		)}

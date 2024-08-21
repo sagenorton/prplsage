@@ -44,6 +44,7 @@
 }
 
 h2 {
+    font-size: 1.75rem;
     color: hsl(90, 49%, 60%);
     margin-bottom: -1rem;
     margin-top: 2rem;
@@ -80,7 +81,7 @@ br {
 
 .skill-list {
     font-size: 1rem;
-    line-height: 2;
+    line-height: 1.5;
     font-weight: 600;
 }
 

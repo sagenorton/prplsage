@@ -9,7 +9,6 @@ html, body {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
 }
   
 main {
@@ -38,6 +37,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #9966CB;
+    font-size: 1.5rem;
 }
 
 nav a.active {

@@ -1,7 +1,7 @@
 ---
-layout: ../../layouts/PortfolioLayout.astro
+layout: ../../layouts/WorkLayout.astro
 title: 'Mahalo Promotions'
-date: '2021-11 to Present'
+date: 'November 2021 to Present'
 teaserimage: '/public/assets/SFCCgradShowTeaser.png'
 category: 'WEB DESIGN'
 images:

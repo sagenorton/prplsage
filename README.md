@@ -15,7 +15,7 @@ This portfolio site is built using [Astro](https://astro.build/), a powerful sta
 
 ### Pages
 
-- **About Me**: A comprehensive overview of my professional background, skills, and experience, presented in a resume-like format.
+- **About**: A comprehensive overview of my professional background, skills, and experience, presented in a resume-like format.
 - **Work**: A curated selection of my projects, showcasing my work in front-end development, UX/UI design, graphic design, and more.
 
 ## Technologies Used
