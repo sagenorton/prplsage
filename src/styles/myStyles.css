@@ -121,6 +121,22 @@ footer {
     right: 0px;
 }
 
+/* Global */
+.columns {
+    display: flex; 
+    align-items: stretch;
+}
+
+.column-one {
+    flex: 1; 
+    padding-right: 10px;
+}
+
+.column-two {
+    flex: 1; 
+    padding-left: 10px;
+}
+
   /* Responsive Design */
 
   @media (min-width: 1500px) {
@@ -217,6 +233,19 @@ footer {
         color: #98CB66 !important;
         font-size: 1.5rem !important;
         font-weight: 800 !important;
+    }
+
+    nav a  {
+        font-size: 1rem;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .column-one, .column-two {
+        padding-right: 0; 
+        padding-left: 0;
     }
 
   }

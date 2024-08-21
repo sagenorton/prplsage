@@ -10,7 +10,7 @@ images:
 link: 'unfortunately this site is unavailable'
 ---
 
-<div class="project-info">
+<div class="columns">
     <div  class="column-one">
 
 <div class="head">
