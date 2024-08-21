@@ -1,14 +1,12 @@
 ---
 layout: ../../layouts/WorkLayout.astro
 title: '2023 SFCC Grad Show'
-date: 'June 2022'
 teaserimage: '/public/assets/SFCCgradShowTeaser.png'
 category: 'WEB DESIGN'
 images:
   - '/public/assets/project1.jpg'
   - '/public/assets/project2.jpg'
   - '/public/assets/project3.jpg'
-tools: ['WordPress', 'Divi Builder', 'HTML', 'CSS', 'JavaScript', 'Adobe Illustrator', 'Adobe PhotoShop', 'Adobe InDesign', 'Adobe AfterEffects']
 link: 'unfortunately this site is unavailable'
 ---
 
@@ -21,20 +19,47 @@ link: 'unfortunately this site is unavailable'
 
 </div>
 
-The 2023 Graphic Design Grad Show website was a pivotal project in my academic and professional journey, where I served as the Web Director. This project went beyond merely showcasing the graduating class's talent; it was an opportunity to lead and manage a comprehensive web design initiative. I collaborated closely with instructors and peers, integrating their feedback and design direction to create a cohesive and engaging digital experience that reflected the event's "3D" theme.
+As Web Director, I led the creation of the 2023 Graphic Design Grad Show website, a key project in my academic and professional journey. This site was more than just a showcase; it was an opportunity to lead a collaborative web design initiative, aligning the site's design with the event's "3D" theme through close cooperation with instructors and peers.
 
 <div class="head">
 
-#### Project Details
+#### Details
 
 </div>
 
-The website was developed as a comprehensive platform that not only highlighted the event details but also showcased the portfolios of the graduating class, activities of the Graphic Design Club, and acknowledgments of instructors and sponsors. The design process was highly collaborative, ensuring that every aspect of the site aligned with the overall theme and delivered a cohesive user experience. I focused on creating clean aesthetics and intuitive user interaction, making the site easy to navigate while being visually appealing.
+The website was crafted to capture the essence of the 2023 Graphic Design Grad Show while maintaining clear and intuitive navigation. It effectively showcased the graduates' portfolios and event details, with a design that aligned with the show’s theme. Collaboration with students and instructors played a crucial role, ensuring that the site accurately represented the collective vision of the graduating class.
+
+<div class="head">
+
+#### Recognition
+
+</div>
+
+The website successfully showcased the graduating class, earning a Silver Addy Award at both the Spokane AAF and national level. I received the Ascender Award for my leadership as Web Director, highlighting my role in design, development, and collaboration. The project exceeded its objectives, delivering a memorable experience for visitors.
 </div>
 <div style="flex: 1; padding-left: 10px;">
+
 <div class="head">
 
-#### Technical & Design Features
+#### Tools
+
+<div class="skills-container">
+<img src="/assets/icons/WordPress.svg" alt="WordPress" class="skill-icon">
+		<img src="/assets/icons/DiviBuilder.svg" alt="Divi Builder" class="skill-icon">
+		<img src="/assets/icons/HTML.svg" alt="HTML" class="skill-icon">
+		<img src="/assets/icons/CSS.svg" alt="CSS" class="skill-icon">
+		<img src="/assets/icons/Javascript.svg" alt="Javascript" class="skill-icon">
+		<img src="/assets/icons/Illustrator.svg" alt="Illustrator" class="skill-icon">
+		<img src="/assets/icons/Photoshop.svg" alt="Photoshop" class="skill-icon">
+		<img src="/assets/icons/InDesign.svg" alt="InDesign" class="skill-icon">
+		<img src="/assets/icons/AfterEffects.svg" alt="After Effects" class="skill-icon">
+	</div>
+
+</div>
+
+<div class="head">
+
+#### Features
 
 </div>
 
@@ -43,11 +68,3 @@ The website was developed as a comprehensive platform that not only highlighted 
 * **User Interaction and Flow:** Designed with a focus on clean aesthetics and intuitive navigation, ensuring a seamless user experience.
 * **Complex Elements Integration:** Integrated features like an event location map, extensive student work displays, interactive hover effects, and external links to create a dynamic and engaging site.
 * **Project Management:** Successfully managed the project from concept to launch, overseeing the integration of various elements while maintaining a cohesive design and user experience.
-
-<div class="head">
-
-#### Conclusion
-
-</div>
-
-The final website was a resounding success, effectively showcasing the talents of the graduating class and enhancing the event's dynamic feel with a seamless user experience. The project earned a Silver Addy Award at the Spokane AAF Addy Awards and a National Silver Addy. Additionally, I was honored with the Ascender Award for my role as the Web Director, recognizing my leadership in both design and development, as well as my collaborative efforts with other students and instructors. The website not only met but exceeded its objectives, providing a memorable and engaging experience for all visitors.

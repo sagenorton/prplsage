@@ -4,25 +4,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 // apply stylesheets
 import "../styles/workStyles.css";
 
-const allProjects = await Astro.glob("../pages/projects/*.md");
-
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout>
     <img src={frontmatter.teaserimage} class="teaser-image" />
     <p class="project-title">{frontmatter.title}</p>
-    <p class="date" >{frontmatter.date}</p>
     <p class="category" >{frontmatter.category}</p>
     <p class="link" >{frontmatter.link}</p>
-    <p class="head">Tools</p>
-    <ul class="tool-list">
-		{frontmatter.tools.map( (tool) =>  
-			<li>{tool}</li>
-		)}
-		</ul>
 
-    <slot />
+  <slot />
 
     <ul class="images">
 		{frontmatter.images.map( (image) =>  
