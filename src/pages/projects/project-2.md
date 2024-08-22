@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/WorkLayout.astro
 title: 'MAHALO PROMOTIONS'
-teaserimage: '/public/assets/mahalo/MahaloTeaser.jpg'
+teaserimage: '../assets/mahalo/MahaloTeaser.jpg'
 images: [
-'/public/assets/mahalo/MahaloHero.jpg'
+'../assets/mahalo/MahaloHero.jpg'
 ]
 link: 'https://mahalopromotions.com/'
 ---
