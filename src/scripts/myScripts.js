@@ -43,29 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // CAROUSEL
     let currentSlide = 0;
     const slides = document.querySelectorAll('.carousel-item');
-    const images = document.querySelectorAll('.carousel-item img');
-
-    function preloadImages(images, callback) {
-        let loadedImagesCount = 0;
-        const totalImages = images.length;
-
-        images.forEach((img) => {
-            const tempImg = new Image();
-            tempImg.src = img.src;
-            tempImg.onload = () => {
-                loadedImagesCount++;
-                if (loadedImagesCount === totalImages) {
-                    callback();
-                }
-            };
-            tempImg.onerror = () => {
-                loadedImagesCount++;
-                if (loadedImagesCount === totalImages) {
-                    callback();
-                }
-            };
-        });
-    }
 
     function showSlide(index) {
         slides.forEach((slide, i) => {
@@ -86,7 +63,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.carousel-control-next').addEventListener('click', nextSlide);
     document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
 
-    preloadImages(images, () => {
-        showSlide(currentSlide);
-    });
+    showSlide(currentSlide);
 });
