@@ -2,7 +2,7 @@
 layout: ../../layouts/WorkLayout.astro
 title: '2023 SFCC GRAD SHOW'
 teaserimage: '../assets/SFCC/SFCCgradShowTeaser.jpg'
-images: [
+hero: [
 '../assets/SFCC/SFCCgradShowHero.jpg',
 '../assets/SFCC/SITEMAP.jpg',
 '../assets/SFCC/WIREFRAMES.jpg',
