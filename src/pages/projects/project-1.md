@@ -1,9 +1,14 @@
 ---
 layout: ../../layouts/WorkLayout.astro
 title: '2023 SFCC GRAD SHOW'
-teaserimage: '/public/assets/SFCCgradShowTeaser.png'
+teaserimage: '/public/assets/SFCC/SFCCgradShowTeaser.jpg'
 images: [
-'/public/assets/SFCCgradShowTeaser.png'
+'/public/assets/SFCC/SFCCgradShowHero.jpg',
+'/public/assets/SFCC/SITEMAP.jpg',
+'/public/assets/SFCC/WIREFRAMES.jpg',
+'/public/assets/SFCC/STYLE GUIDE.jpg',
+'/public/assets/SFCC/ROUGHS.jpg',
+'/public/assets/SFCC/FINALS.jpg'
 ]
 link: 'unfortunately this site is unavailable'
 ---
@@ -29,7 +34,7 @@ The website earned a Silver Addy Award at both the Spokane AAF and national leve
 
 ## Tools
 <br>
-<div class="skills-container">
+<div class="skills-container project-tools">
 <img src="/assets/icons/WordPress.svg" alt="WordPress" class="skill-icon">
 		<img src="/assets/icons/DiviBuilder.svg" alt="Divi Builder" class="skill-icon">
 		<img src="/assets/icons/HTML.svg" alt="HTML" class="skill-icon">

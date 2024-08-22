@@ -32,25 +32,17 @@
     line-height: 1.5;
 }
 
-.skills-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: .5em;
-    padding: .5em;
-}
-
-.skill-icon {
-    width: 5rem;
-    height: 5rem;
-}
-
 .kitties {
-    width: 100%; /* Make the image take up 100% of its container's width */
-    height: auto; /* Maintain the aspect ratio */
+    width: 100%;
+    height: auto;
     display: block;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto;
     border-bottom: hsl(270, 49%, 60%) 1rem solid;
   }
+
+  .cat-pic {
+    margin-top: -1.5rem;
+}
 
 .achievements .subheader {
     margin-bottom: -1rem;
