@@ -236,14 +236,14 @@ footer {
     }
     
     .full-name {
-        font-size: 1.37rem;
+        font-size: 1.37rem !important;
         font-weight: 800;
         margin: 0;
         color: #9966CB;
     }
     
     .title {
-        font-size: .82rem;
+        font-size: .82rem !important;
         font-weight: 700;
         margin: 0;
         color: #98CB66;
@@ -277,13 +277,13 @@ footer {
     }
     
     .full-name {
-        font-size: 1.01rem;
+        font-size: 1.01rem !important;
         font-weight: 900;
         padding-top: .5rem;
     }
     
     .title {
-        font-size: .605rem;
+        font-size: .605rem !important;
         font-weight: 700;
     }
 
