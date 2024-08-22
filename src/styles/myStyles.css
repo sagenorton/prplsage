@@ -6,10 +6,6 @@ html, body {
     flex-direction: column;
     background-color: #ffffff;
 }
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
   
 main {
     width: 800px;
@@ -22,6 +18,59 @@ main {
 
 .content {
     flex: 1;
+}
+
+/*Typography*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .85rem !important;
+}
+
+p {
+    font-size: .85rem !important;
+    margin-top: -.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #9966CB;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #98CB66;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #9966CB;
+  }
+
+h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: -.5rem;
+}
+
+h5 {
+    font-size: .75rem;
+    font-weight: 500;
+    margin-top: -1rem;
+}
+
+h6 {
+    font-size: .75rem;
+    font-weight: 500;
+    margin-top: -1rem;
+}
+
+ul {
+    margin-top: -.5rem;
 }
 
 /* Main Navigation */
@@ -69,7 +118,7 @@ footer {
 }
 
 .full-name {
-    font-size: 1.37rem;
+    font-size: 1.37rem !important;
     font-weight: 800;
     margin: 0;
     color: #9966CB;
@@ -77,7 +126,7 @@ footer {
 }
 
 .title {
-    font-size: .82rem;
+    font-size: .82rem !important;
     font-weight: 700;
     margin: 0;
     color: #98CB66;
@@ -121,7 +170,8 @@ footer {
     right: 0px;
 }
 
-/* Global */
+/* Global Styling */
+
 .columns {
     display: flex; 
     align-items: stretch;
@@ -136,6 +186,8 @@ footer {
     flex: 1; 
     padding-left: 10px;
 }
+
+
 
   /* Responsive Design */
 

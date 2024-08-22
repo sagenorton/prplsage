@@ -7,37 +7,12 @@
     margin: 0 auto; /* Center the image */
 }
 
-.project-title {
-    font-size: 3rem;
-    font-weight: 900;
-    margin: 0;
-    padding-bottom: 0.01rem;
-    color: #9966CB;
-}
-
-.category {
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-.link {
-    font-size: 1rem;
-    font-style: italic;
-    margin-bottom: -1rem;
-}
-
-h4 {
-    font-size: 1.75rem;
-    color: hsl(90, 49%, 60%);
-    margin-top: 2rem;
-    margin-bottom: -.5rem;
-}
-
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
     gap: .5em;
     padding: .5em;
+    margin-top: -1rem;
 }
 
 .skill-icon {
@@ -56,6 +31,8 @@ h4 {
     margin-bottom: 1rem;
 }
 
-.project-button :hover {
+.project-button:hover {
     background-color: #9966CB;
+    color: #fff;
+    cursor: pointer;
 }

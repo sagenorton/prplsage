@@ -1,8 +1,7 @@
 ---
 layout: ../../layouts/WorkLayout.astro
-title: 'Mahalo Promotions'
+title: 'MAHALO PROMOTIONS'
 teaserimage: '/public/assets/SFCCgradShowTeaser.png'
-category: 'WEB DESIGN'
 images:
   - '/public/assets/project1.jpg'
   - '/public/assets/project2.jpg'
@@ -13,23 +12,19 @@ link: 'https://mahalopromotions.com/'
 <div class="columns">
     <div  class="column-one">
 
-#### Overview
+## Overview
 
-The Mahalo Promotions website is a key project for a Spokane-based music promotions company, highlighting the seamless integration of web design and development skills. The site was developed to showcase music events and promote artists, providing a functional, appealing, and dynamic online presence for the company. As the Front-End Developer, I played a central role in creating a site that effectively meets the needs of the music promotions industry.
+As the Front-End Developer for the Mahalo Promotions website, I led the creation of a pivotal online platform for a Spokane-based music promotions company. This project seamlessly combined web design and development to showcase music events and promote artists, delivering a functional and visually appealing online presence. My role involved crafting a site that meets the industry’s dynamic needs while ensuring it remains user-friendly and engaging. The mobile-first, minimalist design was tailored to the target audience’s heavy mobile usage, prioritizing content accessibility and ease of navigation. Through innovative custom coding, I brought the client’s vision to life with unique design elements and advanced functionalities.
 
-#### Details
+## Details
 
-The website was designed with a mobile-first approach, catering to the target audience's prevalent use of mobile devices. The minimalist design emphasizes content, ensuring that users can easily navigate and find the information they need without distraction. The project involved custom coding in HTML, CSS, and JavaScript, which allowed for the creation of unique design elements and advanced functionalities that aligned with the client's vision.
-
-#### Conclusion
-
-The Mahalo Promotions website successfully combines design and development to create a visually appealing and functional platform for showcasing music events and promoting artists. The mobile-first design and responsive layout ensure a consistent user experience across devices, while the minimalist aesthetics keep the focus on content. The use of custom coding allowed for advanced functionalities tailored to the client's vision. As the Front-End Developer, I ensured the site was structured for easy updates and maintenance, adapting to the ever-changing needs of the music industry.
+The Mahalo Promotions website was designed with a clear focus on delivering a consistent and responsive experience across all devices. By leveraging HTML, CSS, and JavaScript, I integrated custom features that enhanced the site's aesthetics and usability beyond standard templates. The minimalist approach ensured that the content took center stage, allowing users to effortlessly discover and navigate the site. Understanding the fast-paced nature of the music industry, I structured the site to be easily updated and maintained, providing the company with a robust platform that adapts to their evolving needs. This project stands as a testament to the successful integration of creative design with technical expertise, meeting both client expectations and industry standards.
 
 </div>
 <div class="column-two">
 
 
-#### Tools
+## Tools
 
 <div class="skills-container">
 <img src="/assets/icons/WordPress.svg" alt="WordPress" class="skill-icon">
@@ -41,7 +36,7 @@ The Mahalo Promotions website successfully combines design and development to cr
 		<img src="/assets/icons/Photoshop.svg" alt="Photoshop" class="skill-icon">
 	</div>
 
-#### Features
+## Features
 
 * **Mobile-First Design:** Prioritized usability and engagement on mobile devices, ensuring a seamless experience for users on smaller screens.
 * **Minimalist Aesthetics:** Implemented a clean, simple interface that highlights content and facilitates easy navigation.

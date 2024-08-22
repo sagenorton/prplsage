@@ -4,85 +4,32 @@
     display: flex;
     align-items: center; /* Vertically center the image and text */
     margin-top: 2rem;
+    margin-bottom: .5rem;
   }
+
+.info h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.info h2 {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+}
+
+.info p {
+    margin-top: -20px !important;
+}
   
 .headshot {
     border-radius: 50%;
-    margin-right: 4rem; /* Add some space between the image and the text */
-    width: 250px; /* Adjust the size as needed */
-    height: 250px; /* Ensure the image maintains a circular shape */
-  }
-
-.quote {
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-style: italic;
-    color: #9966CB;
-    margin-top: 2rem;
-  }
-
-.about-name {
-    font-size: 3rem;
-    font-weight: 900;
-    margin: 0;
-    padding-bottom: 0.01rem;
-    color: #9966CB;
-}
-
-.about-title {
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin: 0;
-    padding-top: 0.01rem;
-    color: #98CB66;
-}
-
-.bio {
-    font-size: 1rem;
-    margin-top: 2rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-size: 1.75rem;
-    color: hsl(90, 49%, 60%);
-    margin-bottom: -1rem;
-    margin-top: 2rem;
-}
-
-.header {
-    font-size: 1rem;
-    margin-top: 2rem;
-    font-weight: 700;
-}
-
-b {
-    font-weight: 600;
-}
-
-br {
-    margin-bottom: .25rem;
-}
-
-.subheader {
-    font-size: .9rem;
-    margin-top: -1rem;
-}
-
-.certificates {
-    font-size: .8rem;
-    margin-top: -.75rem;
+    margin-right: 4rem;
+    width: 250px;
+    height: 250px; 
 }
 
 .list {
-    font-size: .85rem;
-    line-height: 2;
-}
-
-.skill-list {
-    font-size: 1rem;
     line-height: 1.5;
-    font-weight: 600;
 }
 
 .skills-container {
@@ -104,8 +51,6 @@ br {
     margin: 0 auto; /* Center the image */
     border-bottom: hsl(270, 49%, 60%) 1rem solid;
   }
-
-
 
 .achievements .subheader {
     margin-bottom: -1rem;

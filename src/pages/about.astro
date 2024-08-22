@@ -23,10 +23,10 @@ const skills = ['Front-End Development', 'User Experience Design', 'User Interfa
 	<img src="/assets/illustrated-headshot.jpg" alt="Illustated Headshot" class="headshot">
 
 	 <div class="info">
-    		<p class="about-name">{name}</p>
-    		<p class="about-title">{title}</p>
-			<p class="quote">{quote}</p>
-			<p class="bio">
+    		<h1>{name}</h1>
+    		<h2>{title}</h2>
+			<h3>{quote}</h3>
+			<p>
 			I specialize in transforming creative concepts into functional web realities, 
 			ensuring every design is as intuitive as it is visually appealing.
 			</p>
@@ -37,83 +37,81 @@ const skills = ['Front-End Development', 'User Experience Design', 'User Interfa
 <div class="columns">
     <div  class="column-one">
 
-	<h2>Education</h2>
-
-		<p class="header">Bachelors in Visual Communication Design</p>
-		<p class="subheader"><b>2025</b> | Eastern Washington University</p>
-		<p class="certificates"><b>Certificates: </b>Front-End Web Design | User Experience Design</p>
-
-		<p class="header">Associates in Graphic Design</p>
-		<p class="subheader"><b>2023</b> | Spokane Falls Community College</p>
-
-
-		<h2>Skills</h2>
-	<br>
-		<ul class="skill-list">
-			{skills.map( (skill) =>  
-				<li>{skill}</li>
-			)}
-		</ul>
-
-
-		<h2>Achievements</h2>
-
-		<div class="achievements">
-		<p class="header">Golden Eagle Scholarship</p>
-		<p class="subheader"><b>2024 - 2025</b> | Eastern Washington University</p>
-
-		<p class="header">WAVE Scholarship</p>
-		<p class="subheader"><b>2022 - 2024</b> | SFCC & EWU</p>
-
-		<p class="header">National Student Silver Addy Award</p>
-		<p class="subheader"><b>2023</b> | SFCC Grad Show Website</p>
-
-		<p class="header">Spokane Student Silver Addy Award</p>
-		<p class="subheader"><b>2023</b> | SFCC Grad Show Website</p>
-
-		<p class="header">Spokane Student Ascender Award</p>
-		<p class="subheader"><b>2023</b> | SFCC Grad Show Website</p>
-
-		<p class="header">1st Place Lawton Design Scholarship</p>
-		<p class="subheader"><b>2023</b> | Spokane Falls Community College</p>
-	</div>
-
-	</div>
-	<div class="column-two">
-
-	
 	<h2>Experience</h2>
 
-		<p class="header">Front-End Developer</p>
-		<p class="subheader"><b>2022 – Current</b> | Mahalo Promotions</p>
+		<h4>Front-End Developer</h4>
+		<h5><b>2022 – Current</b> | Mahalo Promotions</h5>
 		<ul class="list">
 		<li>Utilized WordPress and Divi Builder, integrating custom coding for advanced features.</li>
 		<li>Adopted mobile-first design, optimizing for usability and engagement on mobile devices.</li>
 		<li>Structured for easy updates and maintenance, adapting to the dynamic music industry needs.</li>
 		</ul>
-
-		<p class="header">Wildlife & Cultural Signs Designer</p>
-		<p class="subheader"><b>2023 – 2024</b> | 49° North Mountain Resort</p>
+<br>
+		<h4>Wildlife & Cultural Signs Designer</h4>
+		<h5><b>2023 – 2024</b> | 49° North Mountain Resort</h5>
 		<ul class="list">
 		<li>Collaborated with Kalispel and Spokane Tribes to create 15 educational animal characters for trail signs, integrating cultural and linguistic elements.</li>
 		<li>Utilized Adobe Illustrator and Procreate for detailed design and texturizing.</li>
 		<li>Adapted to evolving client needs by incorporating revisions and updates.</li>
 		</ul>
-
-		<p class="header">Grad Show Web Director</p>
-		<p class="subheader"><b>2023</b> | Spokane Falls Community College</p>
+<br>
+		<h4>Grad Show Web Director</h4>
+		<h5><b>2023</b> | Spokane Falls Community College</h5>
 		<ul class="list">
 		<li>Directed the Graphic Design Grad Show website, showcasing project management and teamwork skills.</li>
 		<li>Led a team in aligning website design with the “3D” theme through effective collaboration.</li>
 		<li>Managed comprehensive content showcasing event details, portfolios, and sponsor acknowledgments.</li>
 		</ul>
 
+	</div>
+	<div class="column-two">
+
+	
+		<h2>Education</h2>
+
+		<h4>Bachelors in Visual Communication Design</h4 >
+		<h5><b>2025</b> | Eastern Washington University</h5>
+		<h6><b>Certificates: </b>Front-End Web Design | User Experience Design</h6>
+
+		<h4>Associates in Graphic Design</h4>
+		<h5><b>2023</b> | Spokane Falls Community College</h5>
+
+
+		<h2>Skills</h2>
+		<ul><b>
+			{skills.map( (skill) =>  
+				<li>{skill}</li>
+			)}
+			</b>
+		</ul>
+
+
+		<h2>Achievements</h2>
+
+		<div class="achievements">
+		<h4>Golden Eagle Scholarship</h4>
+		<h5><b>2024 - 2025</b> | Eastern Washington University</h5>
+
+		<h4>WAVE Scholarship</h4>
+		<h5><b>2022 - 2024</b> | SFCC & EWU</h5>
+
+		<h4>National Student Silver Addy Award</h4>
+		<h5><b>2023</b> | SFCC Grad Show Website</h5>
+
+		<h4>Spokane Student Silver Addy Award</h4>
+		<h5><b>2023</b> | SFCC Grad Show Website</h5>
+
+		<h4>Spokane Student Ascender Award</h4>
+		<h5><b>2023</b> | SFCC Grad Show Website</h5>
+
+		<h4>1st Place Lawton Design Scholarship</h4>
+		<h5><b>2023</b> | Spokane Falls Community College</h5>
+	</div>
+
 		</div>
 </div>
 
-<br>
 	<h2>Technologies</h2>
-<br>
 	<div class="skills-container">
 		<img src="/assets/icons/HTML.svg" alt="HTML" class="skill-icon">
 		<img src="/assets/icons/CSS.svg" alt="CSS" class="skill-icon">
@@ -131,9 +129,8 @@ const skills = ['Front-End Development', 'User Experience Design', 'User Interfa
 		<img src="/assets/icons/AfterEffects.svg" alt="After Effects" class="skill-icon">
 	</div>
 
-<br>
 	<h2>My Inspiration</h2>
-<br>
+	
 	<img src="/assets/all4.png" alt="My Muses" class="kitties">
 
 	<br>

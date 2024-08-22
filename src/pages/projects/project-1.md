@@ -1,36 +1,36 @@
 ---
 layout: ../../layouts/WorkLayout.astro
-title: '2023 SFCC Grad Show'
+title: '2023 SFCC GRAD SHOW'
 teaserimage: '/public/assets/SFCCgradShowTeaser.png'
-category: 'WEB DESIGN'
-images:
-  - '/public/assets/project1.jpg'
-  - '/public/assets/project2.jpg'
-  - '/public/assets/project3.jpg'
+images: [
+'/public/assets/project1.jpg'
+'/public/assets/project2.jpg'
+'/public/assets/project3.jpg'
+]
 link: 'unfortunately this site is unavailable'
 ---
 
 <div class="columns">
     <div  class="column-one">
 
-#### Overview
+## Overview
 
-As Web Director, I led the creation of the 2023 Graphic Design Grad Show website, a key project in my academic and professional journey. This site was more than just a showcase; it was an opportunity to lead a collaborative web design initiative, aligning the site's design with the event's "3D" theme through close cooperation with instructors and peers.
+As Web Director, I led the creation of the 2023 Graphic Design Grad Show website, designed to attract viewers to the event and showcase the broader aspects of the show. The site highlighted not just the students' work but also the Graphic Design program, student club, sponsors, and unique collectibles. My focus was on creating an engaging online presence that encouraged attendance and participation. This project demonstrated my ability to craft a platform that captured the event’s full scope and appeal. The website played a crucial role in driving interest and engagement for the grad show.
 
-#### Details
+## Details
 
-The website was crafted to capture the essence of the 2023 Graphic Design Grad Show while maintaining clear and intuitive navigation. It effectively showcased the graduates' portfolios and event details, with a design that aligned with the show’s theme. Collaboration with students and instructors played a crucial role, ensuring that the site accurately represented the collective vision of the graduating class.
+The website was designed to align with the “3D” theme of the 2023 Graphic Design Grad Show, reflecting the creativity of the graduating class. Collaboration with students and instructors ensured the design resonated with the theme while maintaining clear navigation. The site effectively showcased the portfolios and emphasized the program’s broader offerings. My leadership ensured the website was both visually appealing and functional. The final product enticed visitors to explore the event and contributed to its overall success.
 
-#### Recognition
+## Recognition
 
-The website successfully showcased the graduating class, earning a Silver Addy Award at both the Spokane AAF and national level. I received the Ascender Award for my leadership as Web Director, highlighting my role in design, development, and collaboration. The project exceeded its objectives, delivering a memorable experience for visitors.
+The website earned a Silver Addy Award at both the Spokane AAF and national levels for its success in showcasing the grad show. My leadership was further recognized with the Ascender Award, highlighting my role in design, development, and collaboration. The project exceeded expectations, creating a memorable experience for visitors and enhancing the event’s impact.
 
 </div>
 <div class="column-two">
 
 
-#### Tools
-
+## Tools
+<br>
 <div class="skills-container">
 <img src="/assets/icons/WordPress.svg" alt="WordPress" class="skill-icon">
 		<img src="/assets/icons/DiviBuilder.svg" alt="Divi Builder" class="skill-icon">
@@ -43,7 +43,7 @@ The website successfully showcased the graduating class, earning a Silver Addy A
 		<img src="/assets/icons/AfterEffects.svg" alt="After Effects" class="skill-icon">
 	</div>
 
-#### Features
+## Features
 
 * **Collaborative Design Process:** Worked closely with students and instructors to align the site design with the grad show's "3D" theme.
 * **Comprehensive Content:** The site included event details, portfolios, club activities, and sponsor acknowledgments, effectively narrating the collective journey and achievements of the graduating class.
