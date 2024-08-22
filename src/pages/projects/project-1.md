@@ -3,9 +3,7 @@ layout: ../../layouts/WorkLayout.astro
 title: '2023 SFCC GRAD SHOW'
 teaserimage: '/public/assets/SFCCgradShowTeaser.png'
 images: [
-'/public/assets/project1.jpg'
-'/public/assets/project2.jpg'
-'/public/assets/project3.jpg'
+'/public/assets/SFCCgradShowTeaser.png'
 ]
 link: 'unfortunately this site is unavailable'
 ---

@@ -2,10 +2,9 @@
 layout: ../../layouts/WorkLayout.astro
 title: 'MAHALO PROMOTIONS'
 teaserimage: '/public/assets/SFCCgradShowTeaser.png'
-images:
-  - '/public/assets/project1.jpg'
-  - '/public/assets/project2.jpg'
-  - '/public/assets/project3.jpg'
+images: [
+'/public/assets/SFCCgradShowTeaser.png'
+]
 link: 'https://mahalopromotions.com/'
 ---
 
