@@ -38,6 +38,7 @@ function movePupil(event, eyeId) {
     eye.style.transform = `translate(${pupilX}px, ${pupilY}px)`;
 }
 
+
 document.addEventListener('DOMContentLoaded', () => {
     // CAROUSEL
     let currentSlide = 0;
