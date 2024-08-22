@@ -148,8 +148,8 @@ footer {
 }
 
 #cat-face {
-    width: 100%; /* Maintains full width */
-    height: auto; /* Scales height proportionally */
+    width: 100%;
+    height: auto;
 }
 
 #left-eye, #right-eye {
@@ -270,7 +270,7 @@ footer {
     }
 
     h3 {
-        font-size: 1.15rem;
+        font-size: 1.25rem;
     }
 
     #image-container {
