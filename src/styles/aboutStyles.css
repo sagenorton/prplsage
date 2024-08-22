@@ -115,4 +115,8 @@
     .subheader {
         font-size: .9rem;
     }
+
+    .column-two {
+        margin-top: -1rem;
+    }
   }
