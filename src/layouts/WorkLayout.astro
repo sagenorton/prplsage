@@ -9,7 +9,7 @@ const { frontmatter } = Astro.props;
 
 <BaseLayout>
 
-<div class="carousel">
+<!--- <div class="carousel">
     <div class="carousel-inner">
         {frontmatter.images.map((image, index) => (
             <div class={`carousel-item ${index === 0 ? 'active' : ''}`}>
@@ -19,6 +19,12 @@ const { frontmatter } = Astro.props;
     </div>
     <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
     <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
+</div> --->
+
+<div class="test-images">
+  {frontmatter.images.map((image) => (
+    <img src={image} class="image" />
+  ))}
 </div>
 
 

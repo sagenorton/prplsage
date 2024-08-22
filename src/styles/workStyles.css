@@ -112,5 +112,7 @@
 
 /* Responsive Design */
 @media (max-width: 834px) {
-    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 }
