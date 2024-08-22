@@ -85,3 +85,13 @@
     border-color: transparent transparent transparent #9966CB; 
 }
 
+
+/* Responsive Design */
+@media (max-width: 834px) {
+    .carousel-item img {
+        object-fit: contain;
+        display: block;
+        max-height: 300px; /* Adjust as needed for mobile */
+        width: 100%; /* Ensure images take full width */
+    }
+}
