@@ -1,16 +1,11 @@
 /* WORK PAGE STYLES */
 
-.teaser-image {
-    width: 75%; /* Make the image take up 100% of its container's width */
-    height: auto; /* Maintain the aspect ratio */
-    display: block;
-    margin: 0 auto; /* Center the image */
-}
-
 .project-tools {
     margin-top: -2rem;
 }
 
+
+/* Project Button */
 .project-button {
     font-size: 1rem;
     font-weight: 800;
@@ -28,6 +23,8 @@
     cursor: pointer;
 }
 
+
+/* Carousel */
 .carousel {
     position: relative;
     width: 100%;
@@ -86,12 +83,48 @@
 }
 
 
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+    text-decoration: none !important;
+    color: #9966CB;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+
+
 /* Responsive Design */
 @media (max-width: 834px) {
     .carousel-item img {
         object-fit: contain;
         display: block;
-        max-height: 300px; /* Adjust as needed for mobile */
-        width: 100%; /* Ensure images take full width */
+        width: 100%;
     }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.carousel img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
