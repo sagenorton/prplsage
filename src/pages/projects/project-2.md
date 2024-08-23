@@ -3,7 +3,7 @@ layout: ../../layouts/WorkLayout.astro
 title: 'MAHALO PROMOTIONS'
 teaserimage: '../assets/mahalo/MahaloTeaser.jpg'
 hero: [
-'../assets/mahalo/MahaloHero.jpg'
+'/public/assets/mahalo/MahaloHero.jpg'
 ]
 link: 'https://mahalopromotions.com/'
 ---

@@ -3,12 +3,12 @@ layout: ../../layouts/WorkLayout.astro
 title: '2023 SFCC GRAD SHOW'
 teaserimage: '../assets/SFCC/sfccGradShowTeaser.jpg'
 hero: [
-'../assets/SFCC/sfccGradShowHero.jpg',
-'../assets/SFCC/sitemap.jpg',
-'../assets/SFCC/wireframes.jpg',
-'../assets/SFCC/styleGuide.jpg',
-'../assets/SFCC/roughs.jpg',
-'../assets/SFCC/finals.jpg'
+'/public/assets/SFCC/sfccGradShowHero.jpg',
+'/public/assets/SFCC/sitemap.jpg',
+'/public/assets/SFCC/wireframes.jpg',
+'/public/assets/SFCC/styleGuide.jpg',
+'/public/assets/SFCC/roughs.jpg',
+'/public/assets/SFCC/finals.jpg'
 ]
 link: 'unfortunately this site is unavailable'
 ---
