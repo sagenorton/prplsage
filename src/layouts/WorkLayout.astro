@@ -11,13 +11,20 @@ const { frontmatter } = Astro.props;
 
   <div class="carousel">
     <div class="carousel-inner">
-      {frontmatter.hero.map((image, index) => (
-        <picture>
-        <div class={`carousel-item ${index === 0 ? 'active' : ''}`}>
-          <img src={`/assets/${image}`} alt={`Slide ${index + 1}`} />
-        </div>
-        </picture>
-      ))}
+            {(() => {
+        const elements = [];
+        for (let index = 0; index < frontmatter.hero.length; index++) {
+          const image = frontmatter.hero[index];
+          elements.push(
+            <picture>
+              <div class={`carousel-item ${index === 0 ? 'active' : ''}`}>
+                <img src={`/assets/${image}`} alt={`Slide ${index + 1}`} />
+              </div>
+            </picture>
+          );
+        }
+        return elements;
+      })()}
       
     </div>
     <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
