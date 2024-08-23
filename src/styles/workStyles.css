@@ -111,7 +111,11 @@
 
 
 /* Responsive Design */
-@media (max-width: 834px) {
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 2rem !important;
+    }
     
     .projects-grid {
         grid-template-columns: 1fr;
