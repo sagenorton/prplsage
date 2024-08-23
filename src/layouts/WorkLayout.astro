@@ -12,9 +12,11 @@ const { frontmatter } = Astro.props;
   <div class="carousel">
     <div class="carousel-inner">
       {frontmatter.hero.map((image, index) => (
+        <picture>
         <div class={`carousel-item ${index === 0 ? 'active' : ''}`}>
           <img src={`/assets/${image}`} alt={`Slide ${index + 1}`} />
         </div>
+        </picture>
       ))}
       
     </div>
