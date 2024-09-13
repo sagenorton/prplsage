@@ -1,9 +1,13 @@
 ---
 layout: ../../layouts/WorkLayout.astro
-title: 'FOWL PLAY: A THANKSGIVING ESCAPE ROOM'
-teaserimage: '../assets/mahalo/MahaloTeaser.jpg'
+title: 'FOWL PLAY: THE THANKSGIVING ESCAPE ROOM'
+teaserimage: '../assets/FowlPlay/FowlPlayTeaser.jpg'
 hero: [
-'/mahalo/MahaloHero.jpg'
+'/FowlPlay/FowlPlayHero.jpg',
+'/FowlPlay/PlayerGuide.jpg',
+'/FowlPlay/CharacterCards.jpg',
+'/FowlPlay/GobbleFeed.jpg',
+'/FowlPlay/Puzzles.jpg'
 ]
 link: 'https://www.figma.com/design/GqI69E2V0PHuRIZuIISYjL/Fowl-Play%3A-A-Thanksgiving-Escape-Room?node-id=0-1&t=DwQltuCdIeX3Ib2w-1'
 ---
@@ -13,11 +17,11 @@ link: 'https://www.figma.com/design/GqI69E2V0PHuRIZuIISYjL/Fowl-Play%3A-A-Thanks
 
 ## Overview
 
-As the Front-End Developer for the Mahalo Promotions website, I led the creation of a pivotal online platform for a Spokane-based music promotions company. This project seamlessly combined web design and development to showcase music events and promote artists, delivering a functional and visually appealing online presence. My role involved crafting a site that meets the industry’s dynamic needs while ensuring it remains user-friendly and engaging. The mobile-first, minimalist design was tailored to the target audience’s heavy mobile usage, prioritizing content accessibility and ease of navigation. Through innovative custom coding, I brought the client’s vision to life with unique design elements and advanced functionalities.
+As the Content Creator for "Fowl Play: The Thanksgiving Escape Room," I helped lead a collaborative group project for the User Experience Design 3 class. Alongside my team, I developed an interactive escape room that combined physical and digital elements to immerse players in a comedic mystery set at a chaotic Thanksgiving dinner. My role focused on crafting the storyline, designing puzzles, and creating interactive features that challenged players to solve the case of the missing turkey. Together, we delivered a unique and engaging experience that seamlessly blended traditional gameplay with modern twists.
 
 ## Details
 
-The Mahalo Promotions website was designed with a clear focus on delivering a consistent and responsive experience across all devices. By leveraging HTML, CSS, and JavaScript, I integrated custom features that enhanced the site's aesthetics and usability beyond standard templates. The minimalist approach ensured that the content took center stage, allowing users to effortlessly discover and navigate the site. Understanding the fast-paced nature of the music industry, I structured the site to be easily updated and maintained, providing the company with a robust platform that adapts to their evolving needs. This project stands as a testament to the successful integration of creative design with technical expertise, meeting both client expectations and industry standards.
+"Fowl Play" was designed to deliver a fully immersive experience using both physical game materials and digital components. The game revolved around the mystery of the missing Thanksgiving turkey, with players solving custom-made puzzles and uncovering clues through character cards and a digital social media feed called the "Gobble Feed." I worked closely with a talented team—Caden Davis (Team Leader), Emily Beer, Evan Sommerfeld, and Joey Sanchirico—to bring the concept to life. Using Adobe Illustrator and Figma, we created a player's guide, interactive social media feed, and character profiles to deepen the narrative and enhance engagement. The result was a fun, lighthearted game that kept players captivated from start to finish.
 
 </div>
 <div class="column-two">
@@ -26,19 +30,14 @@ The Mahalo Promotions website was designed with a clear focus on delivering a co
 ## Tools
 
 <div class="skills-container">
-<img src="/assets/icons/WordPress.svg" alt="WordPress" class="skill-icon">
-		<img src="/assets/icons/DiviBuilder.svg" alt="Divi Builder" class="skill-icon">
-		<img src="/assets/icons/HTML.svg" alt="HTML" class="skill-icon">
-		<img src="/assets/icons/CSS.svg" alt="CSS" class="skill-icon">
-		<img src="/assets/icons/Javascript.svg" alt="Javascript" class="skill-icon">
+<img src="/assets/icons/Figma.svg" alt="Figma" class="skill-icon">
 		<img src="/assets/icons/Illustrator.svg" alt="Illustrator" class="skill-icon">
-		<img src="/assets/icons/Photoshop.svg" alt="Photoshop" class="skill-icon">
 	</div>
 
 ## Features
 
-* **Mobile-First Design:** Prioritized usability and engagement on mobile devices, ensuring a seamless experience for users on smaller screens.
-* **Minimalist Aesthetics:** Implemented a clean, simple interface that highlights content and facilitates easy navigation.
-* **Custom Coding:** Utilized custom HTML, CSS, and JavaScript to enhance the website beyond basic WordPress and Divi functionalities, creating unique features specific to the client's needs.
-* **Responsive Design:** Built the site to adapt smoothly to different screen sizes, ensuring consistency across all devices.
-* **Maintenance and Updates:** Designed the website for easy updates and maintenance, allowing it to stay current and functional in the dynamic music industry.
+* **Interactive Gameplay:** Combined physical and digital elements for an immersive escape room experience.
+* **Humorous Storyline:** Set at a chaotic Thanksgiving dinner, players work to uncover the mystery of the missing turkey.
+* **Custom Puzzles:** Included engaging puzzles like a word search, crossword, word scramble, and pictogram to advance the storyline.
+* **Character Cards:** Provided detailed character profiles that aided in solving the mystery.
+* **Gobble Feed:** A digital, interactive social media feed added modern elements to the traditional puzzle-solving format.

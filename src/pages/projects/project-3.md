@@ -1,9 +1,13 @@
 ---
 layout: ../../layouts/WorkLayout.astro
 title: "IT'S ALIVE! VIRTUAL PET"
-teaserimage: '../assets/mahalo/MahaloTeaser.jpg'
+teaserimage: '../assets/itsAlive/ItsAliveTeaser.jpg'
 hero: [
-'/mahalo/MahaloHero.jpg'
+'/itsAlive/ItsAliveHero.jpg',
+'/itsAlive/Discovery.jpg',
+'/itsAlive/Research.jpg',
+'/itsAlive/LoFi.jpg',
+'/itsAlive/HiFi.jpg'
 ]
 link: 'https://www.figma.com/proto/ro2Vfr2zVIMOwcR628fDxD/UX-1-Project-%235%3A-Choose-Your-Own?node-id=451-2191&t=vIXbWgBPq11v6vw2-1&scaling=scale-down&content-scaling=fixed&page-id=451%3A1384&starting-point-node-id=451%3A4118'
 ---
@@ -13,11 +17,11 @@ link: 'https://www.figma.com/proto/ro2Vfr2zVIMOwcR628fDxD/UX-1-Project-%235%3A-C
 
 ## Overview
 
-As the Front-End Developer for the Mahalo Promotions website, I led the creation of a pivotal online platform for a Spokane-based music promotions company. This project seamlessly combined web design and development to showcase music events and promote artists, delivering a functional and visually appealing online presence. My role involved crafting a site that meets the industry’s dynamic needs while ensuring it remains user-friendly and engaging. The mobile-first, minimalist design was tailored to the target audience’s heavy mobile usage, prioritizing content accessibility and ease of navigation. Through innovative custom coding, I brought the client’s vision to life with unique design elements and advanced functionalities.
+As the UX Designer and Developer for "It's Alive!", I crafted a unique virtual pet app as part of the User Experience Design 1 class. This project seamlessly integrates fitness and gamification by linking with Apple's fitness ecosystem, motivating users to stay active through the evolution of their virtual "ghost buddy." As users track their physical activity via the Apple Watch, their ghost buddy levels up, adding a fun and interactive element to their fitness journey. The app was developed with a focus on user engagement, motivational notifications, and customizable fitness challenges, all within a distinctive "spooky" aesthetic.
 
 ## Details
 
-The Mahalo Promotions website was designed with a clear focus on delivering a consistent and responsive experience across all devices. By leveraging HTML, CSS, and JavaScript, I integrated custom features that enhanced the site's aesthetics and usability beyond standard templates. The minimalist approach ensured that the content took center stage, allowing users to effortlessly discover and navigate the site. Understanding the fast-paced nature of the music industry, I structured the site to be easily updated and maintained, providing the company with a robust platform that adapts to their evolving needs. This project stands as a testament to the successful integration of creative design with technical expertise, meeting both client expectations and industry standards.
+The app’s design began with thorough research, focusing on user personas and a competitive assessment of existing fitness and virtual pet apps. With this groundwork, I crafted a mobile-first, interactive experience that prioritizes user engagement and activity tracking through a gamified system. Using Figma for UI/UX design, Dalle for graphics, and Adobe Illustrator for refinement, the app was carefully crafted to ensure seamless Apple Watch connectivity and real-time user progress updates. The "It's Alive!" app embodies a bold visual theme of neon green and purple, creating an immersive experience that motivates users to stay fit and active while enjoying the spooky fun of evolving their virtual companion.
 
 </div>
 <div class="column-two">
@@ -26,19 +30,15 @@ The Mahalo Promotions website was designed with a clear focus on delivering a co
 ## Tools
 
 <div class="skills-container">
-<img src="/assets/icons/WordPress.svg" alt="WordPress" class="skill-icon">
-		<img src="/assets/icons/DiviBuilder.svg" alt="Divi Builder" class="skill-icon">
-		<img src="/assets/icons/HTML.svg" alt="HTML" class="skill-icon">
-		<img src="/assets/icons/CSS.svg" alt="CSS" class="skill-icon">
-		<img src="/assets/icons/Javascript.svg" alt="Javascript" class="skill-icon">
+		<img src="/assets/icons/Figma.svg" alt="Figma" class="skill-icon">
 		<img src="/assets/icons/Illustrator.svg" alt="Illustrator" class="skill-icon">
 		<img src="/assets/icons/Photoshop.svg" alt="Photoshop" class="skill-icon">
 	</div>
 
 ## Features
 
-* **Mobile-First Design:** Prioritized usability and engagement on mobile devices, ensuring a seamless experience for users on smaller screens.
-* **Minimalist Aesthetics:** Implemented a clean, simple interface that highlights content and facilitates easy navigation.
-* **Custom Coding:** Utilized custom HTML, CSS, and JavaScript to enhance the website beyond basic WordPress and Divi functionalities, creating unique features specific to the client's needs.
-* **Responsive Design:** Built the site to adapt smoothly to different screen sizes, ensuring consistency across all devices.
-* **Maintenance and Updates:** Designed the website for easy updates and maintenance, allowing it to stay current and functional in the dynamic music industry.
+* **Fitness Integration:** Seamlessly syncs with Apple's fitness app and watch, encouraging users to stay active by evolving their virtual pet based on real-world physical activity.
+* **Customizable Challenges:** Allows users to set and adjust fitness goals, tailored to their individual needs and preferences.
+* **Gamified Experience:** Users level up their ghost buddy through activity, adding a playful, engaging dimension to their fitness routine.
+* **Spooky Aesthetic:** Neon green and purple colors, paired with a graveyard backdrop, create a unique and immersive spooky theme.
+* **High-Fidelity Prototype:** The app features interactive prototypes showcasing the pet evolution process and simulated Apple Watch connectivity, offering a fully clickable preview of the app’s core features.

@@ -1,9 +1,12 @@
 ---
 layout: ../../layouts/WorkLayout.astro
 title: "DESIGN RESEARCH APP: DESN LBRY"
-teaserimage: '../assets/mahalo/MahaloTeaser.jpg'
+teaserimage: '../assets/DesnLbry/DesnLbryTeaser.jpg'
 hero: [
-'/mahalo/MahaloHero.jpg'
+'/DesnLbry/DesnLbryHero.jpg',
+'/DesnLbry/LessonPlan.jpg',
+'/DesnLbry/StyleGuide.jpg',
+'/DesnLbry/HiFi.jpg'
 ]
 link: 'https://www.figma.com/proto/Nq1uYLRSWs7p5HBDt1nvmB/DESN-LBRY?node-id=2003-1794&t=ldwgX5AX6IEgCIUi-1&scaling=scale-down&content-scaling=fixed&page-id=2003%3A2&starting-point-node-id=2003%3A4'
 ---
@@ -13,11 +16,11 @@ link: 'https://www.figma.com/proto/Nq1uYLRSWs7p5HBDt1nvmB/DESN-LBRY?node-id=2003
 
 ## Overview
 
-As the Front-End Developer for the Mahalo Promotions website, I led the creation of a pivotal online platform for a Spokane-based music promotions company. This project seamlessly combined web design and development to showcase music events and promote artists, delivering a functional and visually appealing online presence. My role involved crafting a site that meets the industry’s dynamic needs while ensuring it remains user-friendly and engaging. The mobile-first, minimalist design was tailored to the target audience’s heavy mobile usage, prioritizing content accessibility and ease of navigation. Through innovative custom coding, I brought the client’s vision to life with unique design elements and advanced functionalities.
+As the UX Designer and Developer for the "DESN LBRY" app, I led the refinement of a comprehensive design resource platform, created for the User Experience Design 3 class at Eastern Washington University. Initially a group project, I took ownership of optimizing the homepage and enhancing user interaction while retaining key elements from the collaborative effort. The app, crafted in Figma, provides designers with essential resources, offering interactive learning experiences through engaging tutorials and mini-quizzes. This project highlights my ability to merge educational content with intuitive, user-friendly design to create an engaging and functional resource for designers of all skill levels.
 
 ## Details
 
-The Mahalo Promotions website was designed with a clear focus on delivering a consistent and responsive experience across all devices. By leveraging HTML, CSS, and JavaScript, I integrated custom features that enhanced the site's aesthetics and usability beyond standard templates. The minimalist approach ensured that the content took center stage, allowing users to effortlessly discover and navigate the site. Understanding the fast-paced nature of the music industry, I structured the site to be easily updated and maintained, providing the company with a robust platform that adapts to their evolving needs. This project stands as a testament to the successful integration of creative design with technical expertise, meeting both client expectations and industry standards.
+"DESN LBRY" was designed to provide an accessible, visually appealing platform for both novice and experienced designers. Using Figma, I developed a responsive and intuitive interface, balancing aesthetic appeal with functionality. The focus was on delivering concise, engaging tutorials paired with mini-quizzes to reinforce learning. A critical part of the process involved creating a comprehensive style guide that ensured consistency across the app. The educational content covered fundamental and advanced design topics, with a special focus on color theory, which I led the development of, ensuring the lessons were both informative and practical.
 
 </div>
 <div class="column-two">
@@ -26,19 +29,13 @@ The Mahalo Promotions website was designed with a clear focus on delivering a co
 ## Tools
 
 <div class="skills-container">
-<img src="/assets/icons/WordPress.svg" alt="WordPress" class="skill-icon">
-		<img src="/assets/icons/DiviBuilder.svg" alt="Divi Builder" class="skill-icon">
-		<img src="/assets/icons/HTML.svg" alt="HTML" class="skill-icon">
-		<img src="/assets/icons/CSS.svg" alt="CSS" class="skill-icon">
-		<img src="/assets/icons/Javascript.svg" alt="Javascript" class="skill-icon">
-		<img src="/assets/icons/Illustrator.svg" alt="Illustrator" class="skill-icon">
-		<img src="/assets/icons/Photoshop.svg" alt="Photoshop" class="skill-icon">
+<img src="/assets/icons/Figma.svg" alt="Figma" class="skill-icon">
 	</div>
 
 ## Features
 
-* **Mobile-First Design:** Prioritized usability and engagement on mobile devices, ensuring a seamless experience for users on smaller screens.
-* **Minimalist Aesthetics:** Implemented a clean, simple interface that highlights content and facilitates easy navigation.
-* **Custom Coding:** Utilized custom HTML, CSS, and JavaScript to enhance the website beyond basic WordPress and Divi functionalities, creating unique features specific to the client's needs.
-* **Responsive Design:** Built the site to adapt smoothly to different screen sizes, ensuring consistency across all devices.
-* **Maintenance and Updates:** Designed the website for easy updates and maintenance, allowing it to stay current and functional in the dynamic music industry.
+* **Optimized Homepage:** Refined and enhanced the user experience of the homepage for improved interaction and navigation.
+* **Engaging Tutorials and Quizzes:** Developed mini-quizzes alongside concise tutorials to reinforce key design concepts, ensuring users retain and apply what they learn.
+* **Comprehensive Design Lessons:** Crafted and refined lessons, with a particular focus on color theory, offering progressive learning that covers both basics and advanced applications.
+* **Style Guide:** Created a cohesive visual identity, formalizing typography and color usage to ensure a consistent and engaging user experience.
+* **High-Fidelity Prototype:** Designed and tested a hi-fi prototype that delivers an interactive and accessible learning experience, including intuitive navigation and visually rich educational content.

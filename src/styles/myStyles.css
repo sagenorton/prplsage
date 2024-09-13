@@ -190,9 +190,9 @@ footer {
 
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
-    gap: .25em;
-    padding: .25em;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 10px;
 }
 
 .skill-icon {
