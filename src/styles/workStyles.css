@@ -125,12 +125,12 @@
 }
 
 .lightbox-control-prev {
-    left: 1rem;
+    left: 3rem;
     border-color: transparent #9966CB transparent transparent;
 }
 
 .lightbox-control-next {
-    right: 1rem;
+    right: 3rem;
     border-color: transparent transparent transparent #9966CB; 
 }
 
@@ -177,4 +177,14 @@
         width: 100%;
         height: auto;
       }
+
+      .carousel-control-prev,
+      .lightbox-control-prev {
+        left: 10px;
+    }
+    
+    .carousel-control-next,
+    .lightbox-control-next {
+        right: 10px;
+    }
 }
