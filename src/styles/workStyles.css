@@ -125,12 +125,12 @@
 }
 
 .lightbox-control-prev {
-    left: 3rem;
+    left: 1rem;
     border-color: transparent #9966CB transparent transparent;
 }
 
 .lightbox-control-next {
-    right: 3rem;
+    right: 1rem;
     border-color: transparent transparent transparent #9966CB; 
 }
 

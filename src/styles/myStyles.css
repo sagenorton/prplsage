@@ -324,4 +324,8 @@ footer {
         padding-left: 0;
     }
 
+    .skills-container {
+        grid-template-columns: repeat(5, 1fr) !important;
+    }
+
   }

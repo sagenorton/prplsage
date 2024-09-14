@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/WorkLayout.astro
 title: 'WILDLIFE & CULTURAL SIGNS'
-teaserimage: '../assets/mahalo/MahaloTeaser.jpg'
+teaserimage: '../assets/WildlifeSigns/WildlifeTeaser.jpg'
 hero: [
 '/WildlifeSigns/InfoSign.jpg',
 '/WildlifeSigns/First3.jpg',
