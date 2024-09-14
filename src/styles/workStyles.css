@@ -181,11 +181,11 @@
 
       .carousel-control-prev,
       .lightbox-control-prev {
-        left: -1rem;
+        left: -2rem;
     }
     
     .carousel-control-next,
     .lightbox-control-next {
-        right: -1rem;
+        right: -2rem;
     }
 }
