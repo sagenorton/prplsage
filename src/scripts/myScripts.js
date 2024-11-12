@@ -54,7 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
         lightboxImg.src = images[currentLightboxIndex].src;
     }
 
-    // Add click event to each carousel image to open lightbox
     images.forEach((img, index) => {
         img.addEventListener('click', () => openLightbox(index));
     });
@@ -63,9 +62,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.lightbox-control-next').addEventListener('click', nextLightboxImage);
     document.querySelector('.lightbox-control-prev').addEventListener('click', prevLightboxImage);
 });
-
-
-// SKILLS-CONTAINER
-
 
 

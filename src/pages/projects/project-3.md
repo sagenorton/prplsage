@@ -1,44 +1,33 @@
 ---
 layout: ../../layouts/WorkLayout.astro
-title: "IT'S ALIVE! VIRTUAL PET"
-teaserimage: '../assets/itsAlive/ItsAliveTeaser.jpg'
+title: 'WILDLIFE & CULTURAL SIGNS'
+teaserimage: '../assets/WildlifeSigns/WildlifeTeaser.jpg'
 hero: [
-'/itsAlive/ItsAliveHero.jpg',
-'/itsAlive/Discovery.jpg',
-'/itsAlive/Research.jpg',
-'/itsAlive/LoFi.jpg',
-'/itsAlive/HiFi.jpg'
+'/WildlifeSigns/InfoSign.jpg',
+'/WildlifeSigns/First3.jpg',
+'/WildlifeSigns/Second3.jpg',
+'/WildlifeSigns/Third3.jpg',
+'/WildlifeSigns/Forth3.jpg',
+'/WildlifeSigns/Last3.jpg'
 ]
-link: 'https://www.figma.com/proto/ro2Vfr2zVIMOwcR628fDxD/UX-1-Project-%235%3A-Choose-Your-Own?node-id=451-2191&t=vIXbWgBPq11v6vw2-1&scaling=scale-down&content-scaling=fixed&page-id=451%3A1384&starting-point-node-id=451%3A4118'
 ---
 
-<div class="columns">
-    <div  class="column-one">
-
-## Overview
-
-As the UX Designer and Developer for "It's Alive!", I crafted a unique virtual pet app as part of the User Experience Design 1 class. This project seamlessly integrates fitness and gamification by linking with Apple's fitness ecosystem, motivating users to stay active through the evolution of their virtual "ghost buddy." As users track their physical activity via the Apple Watch, their ghost buddy levels up, adding a fun and interactive element to their fitness journey. The app was developed with a focus on user engagement, motivational notifications, and customizable fitness challenges, all within a distinctive "spooky" aesthetic.
-
-## Details
-
-The app’s design began with thorough research, focusing on user personas and a competitive assessment of existing fitness and virtual pet apps. With this groundwork, I crafted a mobile-first, interactive experience that prioritizes user engagement and activity tracking through a gamified system. Using Figma for UI/UX design, Dalle for graphics, and Adobe Illustrator for refinement, the app was carefully crafted to ensure seamless Apple Watch connectivity and real-time user progress updates. The "It's Alive!" app embodies a bold visual theme of neon green and purple, creating an immersive experience that motivates users to stay fit and active while enjoying the spooky fun of evolving their virtual companion.
-
+### Project Summary
+<div class="project-summary">
+Designed educational signage for 49° North Mountain Resort, featuring English and Salish language to support cultural awareness and education on local wildlife. In collaboration with tribal partners, I created 15 animal illustrations that were carefully integrated into the environment, promoting a respectful and informative experience for visitors.
 </div>
-<div class="column-two">
 
+### Project Impact
+* **Promoted Cultural Awareness:** The bilingual signs fostered educational engagement by incorporating both English and Salish languages, supporting the resort’s mission to honor and promote local tribal culture.
+* **Increased Visitor Interaction:** The visually appealing and informative signage encourage more visitors to engage with the natural environment, turning trail areas into educational spaces that highlight indigenous heritage and local wildlife.
 
-## Tools
+### Tools Used
+* **Design:** Adobe Illustrator, Procreate
 
-<div class="skills-container">
-		<img src="/assets/icons/Figma.svg" alt="Figma" class="skill-icon">
-		<img src="/assets/icons/Illustrator.svg" alt="Illustrator" class="skill-icon">
-		<img src="/assets/icons/Photoshop.svg" alt="Photoshop" class="skill-icon">
-	</div>
+### Features
 
-## Features
-
-* **Fitness Integration:** Seamlessly syncs with Apple's fitness app and watch, encouraging users to stay active by evolving their virtual pet based on real-world physical activity.
-* **Customizable Challenges:** Allows users to set and adjust fitness goals, tailored to their individual needs and preferences.
-* **Gamified Experience:** Users level up their ghost buddy through activity, adding a playful, engaging dimension to their fitness routine.
-* **Spooky Aesthetic:** Neon green and purple colors, paired with a graveyard backdrop, create a unique and immersive spooky theme.
-* **High-Fidelity Prototype:** The app features interactive prototypes showcasing the pet evolution process and simulated Apple Watch connectivity, offering a fully clickable preview of the app’s core features.
+* **Cultural and Educational Focus:** Designed 15 unique animal characters labeled in English and Salish, promoting both wildlife education and cultural awareness.
+* **Seamless Integration with Nature:** The signage featured wooden elements and engraved names, designed to blend into the natural environment.
+* **Custom Illustrations:** Utilized Adobe Illustrator and Procreate to create detailed, textured animal characters that were both engaging and educational.
+* **Informational Sign:** Designed a 3x5ft sign combining animal characters, tribal logos, and explanatory text to provide a comprehensive educational guide for visitors.
+* **Adaptability:** The project required revisions, including the addition of Spokane Tribe translations, demonstrating flexibility in meeting evolving client needs.

@@ -11,34 +11,20 @@ hero: [
 link: 'https://mahalopromotions.com/'
 ---
 
-<div class="columns">
-    <div  class="column-one">
-
-## Overview
-
-As the Front-End Developer for the Mahalo Promotions website, I led the creation of a pivotal online platform for a Spokane-based music promotions company. This project seamlessly combined web design and development to showcase music events and promote artists, delivering a functional and visually appealing online presence. My role involved crafting a site that meets the industry’s dynamic needs while ensuring it remains user-friendly and engaging. The mobile-first, minimalist design was tailored to the target audience’s heavy mobile usage, prioritizing content accessibility and ease of navigation. Through innovative custom coding, I brought the client’s vision to life with unique design elements and advanced functionalities.
-
-## Details
-
-The Mahalo Promotions website was designed with a clear focus on delivering a consistent and responsive experience across all devices. By leveraging HTML, CSS, and JavaScript, I integrated custom features that enhanced the site's aesthetics and usability beyond standard templates. The minimalist approach ensured that the content took center stage, allowing users to effortlessly discover and navigate the site. Understanding the fast-paced nature of the music industry, I structured the site to be easily updated and maintained, providing the company with a robust platform that adapts to their evolving needs. This project stands as a testament to the successful integration of creative design with technical expertise, meeting both client expectations and industry standards.
-
+### Project Summary
+<div class="project-summary">
+Developed a mobile-first website for Mahalo Promotions, tailored to a predominantly mobile audience to enhance accessibility and engagement. By integrating custom features in WordPress and optimizing the site's structure, I ensured the site could be easily updated, meeting the fast-paced demands of the music industry.
 </div>
-<div class="column-two">
 
+### Project Impact
+* **Mobile-First Optimization:** With 80% of the client’s user base accessing the site on mobile, the mobile-first design improved accessibility and enhanced user experience, making it easier for fans to access events and artist information on the go.
+* **Streamlined Client Updates:** The backend was structured for quick, straightforward updates, enabling the client to manage content changes efficiently and keep the website fresh without technical support.
 
-## Tools
+### Tools Used
+* **Development:** WordPress, HTML, CSS, JavaScript
+* **Design:** Adobe Illustrator, Photoshop
 
-<div class="skills-container">
-<img src="/assets/icons/WordPress.svg" alt="WordPress" class="skill-icon">
-		<img src="/assets/icons/DiviBuilder.svg" alt="Divi Builder" class="skill-icon">
-		<img src="/assets/icons/HTML.svg" alt="HTML" class="skill-icon">
-		<img src="/assets/icons/CSS.svg" alt="CSS" class="skill-icon">
-		<img src="/assets/icons/Javascript.svg" alt="Javascript" class="skill-icon">
-		<img src="/assets/icons/Illustrator.svg" alt="Illustrator" class="skill-icon">
-		<img src="/assets/icons/Photoshop.svg" alt="Photoshop" class="skill-icon">
-	</div>
-
-## Features
+### Features
 
 * **Mobile-First Design:** Prioritized usability and engagement on mobile devices, ensuring a seamless experience for users on smaller screens.
 * **Minimalist Aesthetics:** Implemented a clean, simple interface that highlights content and facilitates easy navigation.
