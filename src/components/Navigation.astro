@@ -2,13 +2,9 @@
 const currentPath = Astro.url.pathname;
 
 // Handle both cases: with and without trailing slash
-const isActiveAbout = currentPath === '/about' || currentPath === '/about/';
 const isActiveHome = currentPath === '/' || currentPath === '/';
-const isActiveWork = currentPath === '/work' || currentPath === '/work/';
 ---
 
 <nav>
-    <a href="/about" class={isActiveAbout ? 'active' : ''}>ABOUT</a>
     <a href="/" class={isActiveHome ? 'active' : ''}>PRPL SAGE</a>
-    <a href="/work" class={isActiveWork ? 'active' : ''}>WORK</a>
 </nav>
