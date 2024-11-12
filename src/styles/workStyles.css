@@ -1,10 +1,5 @@
 /* WORK PAGE STYLES */
 
-.project-tools {
-    margin-top: -2rem;
-}
-
-
 /* Project Button */
 
 .link-button {
@@ -147,7 +142,7 @@
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 25px;
     padding: 20px;
     margin-top: -3rem;
 }

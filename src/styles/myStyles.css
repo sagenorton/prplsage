@@ -12,16 +12,14 @@ html, body {
 }
   
 main {
-    width: 800px;
-    max-width: 100%;
+    max-width: 60%;
     margin: auto;
+    padding: 2rem;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    background-color: #ffffff;
-    padding-left: 10rem;
-    padding-right: 10rem;
 }
+
 
 .content {
     flex: 1;
@@ -77,9 +75,11 @@ h3::after {
 }
 
 h4 {
+    font-family: 'Roboto Slab', serif;
     font-size: 1rem;
     font-weight: 700;
     margin-top: -.5rem;
+    color: #000;
 }
 
 h5 {
@@ -115,7 +115,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem auto 0rem auto;
     font-family: 'roboto slab', serif;
     font-weight: 900;
 }
@@ -134,7 +134,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 1em 1em;
+    padding: 1em 5em;
 }
 
 .logo {
@@ -143,8 +143,8 @@ footer {
 }
 
 .icon {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     margin: 0 0.5rem;
 }
 
@@ -155,17 +155,23 @@ hr {
     border: 0;
     height: 5px;
     background: #9966CB;
-    margin: 5rem auto 3rem auto;
-    width: 120%;
+    width: clamp(80%, 120%, 100%);
+    margin: 3rem auto;
     position: relative;
-    left: -10%;
+    left: 0;
 }
 
 .hero {
-        width: 100%;
-        height: auto;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
+    display: block;
+    width: 100%;
+    max-width: 70%;
+    height: auto;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
+}
+
+.about-me {
+    padding: 0rem 4rem;
 }
 
 
@@ -175,21 +181,26 @@ hr {
   @media (max-width: 834px) {
 
     main {
-        width: 500px;
-        min-height: 90vh;
-        padding-left: 5rem;
-        padding-right: 5rem;
+        max-width: 70%;
+        padding: 1rem;
     }
 
-  }
-  
-  @media (max-width: 480px) {
+    hr {
+        width: 90%; 
+        height: 4px; 
+    }
+}
+
+@media (max-width: 480px) {
+
+    hr {
+        width: 80%;  
+        height: 3px; 
+    }
 
     main {
-        width: 350px;
-        min-height: 85vh;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        max-width: 80%;
+        padding: 1rem;
     }
 
     h1 {
