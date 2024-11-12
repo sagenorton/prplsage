@@ -4,20 +4,27 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-image: url("/assets/IconBackground.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
   
 main {
     width: 800px;
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #ffffff;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .content {
     flex: 1;
+    background-color: #ffffff;
 }
 
 /*Typography*/
@@ -147,8 +154,10 @@ hr {
     border: 0;
     height: 5px;
     background: #9966CB;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin: 5rem auto 3rem auto;
+    width: 120%;
+    position: relative;
+    left: -10%;
 }
 
 .hero {
@@ -165,7 +174,10 @@ hr {
   @media (max-width: 834px) {
 
     main {
+        width: 500px;
         min-height: 90vh;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 
   }
@@ -173,7 +185,10 @@ hr {
   @media (max-width: 480px) {
 
     main {
+        width: 350px;
         min-height: 85vh;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     h1 {
