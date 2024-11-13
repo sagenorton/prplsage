@@ -201,7 +201,7 @@ hr {
 @media (max-width: 480px) {
 
     html, body {
-        background-size: 150%;
+        background-size: 100%;
     }
 
     hr {
