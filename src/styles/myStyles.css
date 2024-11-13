@@ -197,11 +197,12 @@ hr {
 @media (max-width: 480px) {
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     html, body {
-        background-size: 300%;
+        background-size: 200%;
+        background-repeat: repeat;
     }
 
     .hero {
@@ -235,7 +236,7 @@ hr {
     }
 
     nav a  {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     footer {
