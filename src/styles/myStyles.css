@@ -201,18 +201,13 @@ hr {
     }
 
     html, body {
-        background-size: 200%;
-        background-repeat: repeat;
+        background-image: none;
+        background-color:#9966CB;
     }
 
     .hero {
         padding-top: 2rem;
         max-width: 100%;
-    }
-
-    hr {
-        width: 80%;  
-        height: 3px; 
     }
 
     main {
