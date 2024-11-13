@@ -203,11 +203,13 @@
 
       .carousel-control-prev,
       .lightbox-control-prev {
-        left: -2rem;
+        left: 0;
+        border-radius: 10px;
     }
     
     .carousel-control-next,
     .lightbox-control-next {
-        right: -2rem;
+        right: 0;
+        border-radius: 10px;
     }
 }
