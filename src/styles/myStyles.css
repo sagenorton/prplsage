@@ -179,6 +179,10 @@ hr {
         font-size: 2.5rem;
     }
 
+    html, body {
+        background-size: 50%;
+    }
+
     main {
         max-width: 70%;
         padding: 1rem;
