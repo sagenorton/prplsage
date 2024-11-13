@@ -8,7 +8,7 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout>
-<br>
+
   <div class="carousel">
     <div class="carousel-inner">
             {(() => {
@@ -41,7 +41,7 @@ const { frontmatter } = Astro.props;
 
 
   <h2>{frontmatter.title}</h2>
-
+<div class="project-container">
 <p>
   {typeof frontmatter.link === 'string' && frontmatter.link.startsWith('https://') ? (
     <p class="link-button">
