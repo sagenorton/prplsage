@@ -204,12 +204,10 @@
       .carousel-control-prev,
       .lightbox-control-prev {
         left: -5rem;
-        border-radius: 5px;
     }
     
     .carousel-control-next,
     .lightbox-control-next {
         right: -5rem;
-        border-radius: 5px;
     }
 }
