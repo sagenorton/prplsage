@@ -184,7 +184,7 @@
 @media (max-width: 480px) {
 
     .project-button {
-        width: 100px;
+        padding: .5rem;
     }
 
     .project-container {
