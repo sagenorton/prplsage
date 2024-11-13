@@ -181,6 +181,64 @@
 
 /* Responsive Design */
 
+@media (max-width: 1440px) {
+
+    .project-container {
+        padding: 0rem 6rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+        padding: 0rem 6rem;
+    }
+
+    .carousel {
+        padding-top: 2rem;
+        max-height: 400px;
+    }
+    .carousel-item img {
+        max-height: 400px;
+    }
+
+    .carousel-control-prev {
+        left: 2rem;
+    }
+
+    .carousel-control-next {
+        right: 2rem;
+    }
+    
+}
+
+  
+  @media (max-width: 834px) {
+
+    .project-container {
+        padding: 0rem 4rem;
+    }
+
+    h2 {
+        padding: 0rem 4rem;
+    }
+
+    .carousel {
+        padding-top: 2rem;
+        max-height: 400px;
+    }
+    .carousel-item img {
+        max-height: 400px;
+    }
+
+    .carousel-control-prev {
+        left: 2rem;
+    }
+
+    .carousel-control-next {
+        right: 2rem;
+    }
+
+}
+
 @media (max-width: 480px) {
 
     .link-button {
