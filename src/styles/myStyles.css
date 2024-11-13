@@ -107,6 +107,7 @@ ul {
 /* Main Navigation */
 
 nav {
+    font-family: "Amarante", serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,6 +117,7 @@ nav {
 }
 
 nav a {
+    font-family: "Amarante", serif;
     text-decoration: none;
     color: #9966CB;
     font-size: 2rem;
