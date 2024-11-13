@@ -189,6 +189,7 @@
 
     h2 {
         font-size: 2rem !important;
+        padding: 0;
     }
     
     .projects-grid {
@@ -203,12 +204,10 @@
       .carousel-control-prev,
       .lightbox-control-prev {
         left: -2rem;
-        border-radius: 15px;
     }
     
     .carousel-control-next,
     .lightbox-control-next {
-        border-radius: 15px;
         right: -2rem;
     }
 }
