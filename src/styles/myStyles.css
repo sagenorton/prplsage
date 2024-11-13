@@ -176,7 +176,7 @@ hr {
   @media (max-width: 834px) {
 
     main {
-        max-width: 70%;
+        max-width: 80%;
         padding: 1rem;
     }
 
@@ -202,7 +202,6 @@ hr {
 
     html, body {
         background-image: none;
-        background-color:#9966CB;
     }
 
     .hero {
@@ -211,7 +210,7 @@ hr {
     }
 
     main {
-        max-width: 70%;
+        max-width: 100%;
         padding: 1rem;
     }
 
