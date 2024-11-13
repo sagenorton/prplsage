@@ -141,17 +141,16 @@
 /* Projects Grid */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-    padding: 20px;
-    margin-top: -3rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 2rem;
 }
 
 .project-item {
     text-align: center;
     transition: transform 0.3s ease;
     text-decoration: none !important;
-    color: #9966CB;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 .project-item img {
