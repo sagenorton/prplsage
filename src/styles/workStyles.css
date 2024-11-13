@@ -90,12 +90,12 @@
 }
 
 .carousel-control-prev {
-    left: 8rem;
+    left: 5rem;
     border-color: transparent #9966CB transparent transparent;
 }
 
 .carousel-control-next {
-    right: 8rem;
+    right: 5rem;
     border-color: transparent transparent transparent #9966CB; 
 }
 
@@ -142,12 +142,12 @@
 }
 
 .lightbox-control-prev {
-    left: 8rem;
+    left: 4rem;
     border-color: transparent #9966CB transparent transparent;
 }
 
 .lightbox-control-next {
-    right: 8rem;
+    right: 4rem;
     border-color: transparent transparent transparent #9966CB; 
 }
 
