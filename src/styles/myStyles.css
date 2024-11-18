@@ -224,7 +224,20 @@ hr {
     }
 
     .about-me {
-        padding: 0rem 4rem;
+        padding: 0;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .about-me-text, .about-me-image {
+        flex: none;
+        width: 100%;
+    }
+
+    .about-me-image {
+        margin-top: 0;
+        max-width: 100%;
+        text-align: center;
     }
 
     footer {
@@ -255,24 +268,6 @@ hr {
         font-size: .8rem;
         padding-top: 1rem;
     }
-
-    .about-me {
-        padding: 0;
-        flex-direction: column;
-        margin: 0;
-    }
-
-    .about-me-text, .about-me-image {
-        flex: none;
-        width: 100%;
-    }
-
-    .about-me-image {
-        margin-top: 0;
-        max-width: 100%;
-        text-align: center;
-    }
-
 
     .icon {
         width: 2.25rem;
