@@ -202,7 +202,20 @@ hr {
     }
 
     .about-me {
-        padding: 0rem 6rem;
+        padding: 0;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .about-me-text, .about-me-image {
+        flex: none;
+        width: 100%;
+    }
+
+    .about-me-image {
+        margin-top: 0;
+        max-width: 100%;
+        text-align: center;
     }
 
     footer {
@@ -221,23 +234,6 @@ hr {
         width: 90%; 
         height: 2px;
         margin: 2rem auto;
-    }
-
-    .about-me {
-        padding: 0;
-        flex-direction: column;
-        margin: 0;
-    }
-
-    .about-me-text, .about-me-image {
-        flex: none;
-        width: 100%;
-    }
-
-    .about-me-image {
-        margin-top: 0;
-        max-width: 100%;
-        text-align: center;
     }
 
     footer {
