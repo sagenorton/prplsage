@@ -259,11 +259,13 @@ hr {
     .about-me {
         padding: 0;
         flex-direction: column;
+        margin: 0;
     }
 
     .about-me-text, .about-me-image {
         flex: none;
         width: 100%; 
+        text-align: center;
     }
 
 
