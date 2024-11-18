@@ -264,7 +264,10 @@ hr {
 
     .about-me-text, .about-me-image {
         flex: none;
-        width: 100%; 
+        width: 100%;
+    }
+
+    .about-me-image img {
         text-align: center;
     }
 
