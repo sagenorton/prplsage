@@ -258,6 +258,12 @@ hr {
 
     .about-me {
         padding: 0;
+        flex-direction: column;
+    }
+
+    .about-me-text, .about-me-image {
+        flex: none;
+        width: 100%; 
     }
 
 
