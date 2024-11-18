@@ -91,7 +91,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 300;
     margin-top: -1rem;
 }
@@ -168,7 +168,27 @@ hr {
 }
 
 .about-me {
-    padding: 0rem 15rem;
+    margin-top: -2rem;
+    padding-left: 7rem;
+    margin-right: -4rem;
+    display: flex;
+    align-items: center;
+}
+
+.about-me-text {
+    margin-top: -3rem;
+    flex: 4;
+}
+
+.about-me-image {
+    margin-top: 2rem;
+    flex: 3;
+    text-align: left;
+}
+
+.about-me-image img {
+    max-width: 75%;
+    height: auto;
 }
 
 

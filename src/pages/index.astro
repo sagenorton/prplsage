@@ -7,12 +7,13 @@ const pageTitle = "Home";
 <BaseLayout pageTitle={pageTitle} class="homepage">
 	
 	<div class="container">
-        <img src="/assets/Placeholder-Logo.svg" alt="Logo" class="hero">
+        <img src="/assets/hero-logo.svg" alt="Logo" class="hero">
 	<hr>
 	<h1>FEATURED PROJECTS</h1>
 	<Work />
 	<hr>
 	 <section class="about-me">
+     <div class="about-me-text">
         <h1>ABOUT ME</h1>
         <h6>
             Hey there! I’m Sage – an interactive designer who’s all about creating digital experiences that bring joy and spark curiosity. 
@@ -23,6 +24,10 @@ const pageTitle = "Home";
         <br><br>
             At the heart of it, I create because I love sharing joy with others. I’m a Nintendo enthusiast, EDM festival fan, and cat parent, and these parts of my life inspire me every day to bring energy and imagination into my work. I'm always looking to push the boundaries of digital design and make ideas come to life in ways that connect with people.
         </h6>
+    </div>
+    <div class="about-me-image">
+        <img src="/assets/sage-kitties-illustration.svg" alt="Sage and Kitties" class="sage-kitties">
+    </div>
     </section>
 	</div>
 </BaseLayout>
