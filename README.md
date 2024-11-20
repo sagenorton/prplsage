@@ -1,22 +1,13 @@
 # PRPL SAGE Portfolio
 
-Welcome to my professional portfolio site, **PRPL SAGE**. This site serves as a showcase of my skills and experiences as a front-end developer, aspiring game developer, UX/UI designer, and graphic designer.
+Welcome to **PRPL SAGE**, my portfolio site showcasing my work as an **Interactive Designer**. This platform highlights my skills in web development, UX/UI design, and graphic design through curated projects and a glimpse into my professional journey.
 
 ## Features
 
-- **Clean Design**: A modern, clean layout that emphasizes simplicity and clarity.
-- **Interactive Homepage**: Engaging interactions to capture visitors' attention right from the start.
-- **Responsive**: Fully responsive design to ensure a seamless experience across all devices.
-- **Easy Navigation**: Intuitive navigation for easy access to all sections of the site.
-
-## About the Project
-
-This portfolio site is built using [Astro](https://astro.build/), a powerful static site generator. The site is deployed on [Netlify](https://www.netlify.com/), providing fast and reliable hosting.
-
-### Pages
-
-- **About**: A comprehensive overview of my professional background, skills, and experience, presented in a resume-like format.
-- **Work**: A curated selection of my projects, showcasing my work in front-end development, UX/UI design, graphic design, and more.
+- **Interactive Homepage**: Highlights featured projects and includes a brief "About Me" section.
+- **Project Pages**: Each featured project links to a dedicated page with an overview of its goals, process, and results.
+- **Responsive Design**: Optimized for seamless viewing on any device.
+- **Clean Aesthetic**: A minimalist, modern design that focuses on functionality and user experience.
 
 ## Technologies Used
 
