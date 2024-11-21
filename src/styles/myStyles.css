@@ -209,12 +209,12 @@ hr {
 
     .about-me-text, .about-me-image {
         flex: none;
-        width: 100%;
+        width: 90%;
     }
 
     .about-me-image {
         margin-top: 0;
-        max-width: 100%;
+        max-width: 60%;
         text-align: center;
     }
 
@@ -238,6 +238,17 @@ hr {
 
     footer {
         padding: 1em 5em;
+    }
+
+    .about-me-text, .about-me-image {
+        flex: none;
+        width: 100%;
+    }
+
+    .about-me-image {
+        margin-top: 0;
+        max-width: 100%;
+        text-align: center;
     }
 }
 
