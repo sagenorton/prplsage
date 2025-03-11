@@ -1,5 +1,59 @@
 console.log('OK');
 
+if (typeof window !== "undefined") {
+    document.addEventListener("DOMContentLoaded", function () {
+        const video = document.getElementById("heroVideo");
+        const muteToggle = document.getElementById("muteToggle");
+        let isPausedAtCheckpoint = false;
+        let isPlayingFullAnimation = false; // Tracks if animation should continue fully
+        const pauseTime = 6.9; // Time to pause at
+
+        // Ensure video starts muted to avoid autoplay issues
+        video.muted = true;
+        video.autoplay = true;
+        video.loop = false;
+        video.play(); // Ensure autoplay
+
+        // Once metadata is loaded, play the video
+        video.addEventListener("loadedmetadata", function () {
+            video.play();
+        });
+
+        // Pause at checkpoint (6.9s) if it's the first time playing
+        video.addEventListener("timeupdate", function () {
+            if (!isPausedAtCheckpoint && !isPlayingFullAnimation && video.currentTime >= pauseTime) {
+                video.pause();
+                isPausedAtCheckpoint = true;
+            }
+        });
+
+        // Click to continue playing the full animation
+        video.addEventListener("click", function () {
+            if (isPausedAtCheckpoint) {
+                video.play();
+                isPausedAtCheckpoint = false;
+                isPlayingFullAnimation = true; // Allow video to fully play
+            }
+        });
+
+        // When the video fully finishes, restart from 0s and pause at 6.9s again
+        video.addEventListener("ended", function () {
+            video.currentTime = 0; // Restart from beginning
+            video.play();
+            isPausedAtCheckpoint = false;
+            isPlayingFullAnimation = false; // Reset flag so it pauses at 6.9s again
+        });
+
+        // Mute/unmute toggle
+        muteToggle.addEventListener("click", function () {
+            video.muted = !video.muted;
+            muteToggle.textContent = video.muted ? "🔇" : "🔊";
+        });
+    });
+}
+
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     // CAROUSEL

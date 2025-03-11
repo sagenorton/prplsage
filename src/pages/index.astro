@@ -7,16 +7,21 @@ const pageTitle = "Home";
 <BaseLayout pageTitle={pageTitle} class="homepage">
 	
 	<div class="container">
-        <img src="/assets/hero-logo.svg" alt="Logo" class="hero">
+        <div class="video-container">
+            <video id="heroVideo" src="/assets/hero-video.mp4" playsinline muted></video>
+            <!-- Speaker Icon -->
+            <button id="muteToggle" class="speaker-icon">🔇</button>
+            <p>Click the power button</p>
+        </div>
 	<hr>
-	<h1>FEATURED PROJECTS</h1>
+	<h1>STUFF I'VE DONE</h1>
 	<Work />
 	<hr>
 	 <section class="about-me">
      <div class="about-me-text">
-        <h1>ABOUT ME</h1>
+        <h1>STUFF ABOUT ME</h1>
         <h6>
-            Hey there! I’m Sage – an interactive designer who’s all about creating digital experiences that bring joy and spark curiosity. 
+            Hey there! I’m Sage – a Front End Developer who’s all about creating digital experiences that bring joy and spark curiosity. 
             Design isn’t just what I do; it’s a huge part of who I am. My mind is always racing with new ideas, whether it's a fresh illustration concept, 
             a way to improve a design, or solving a tricky coding challenge. I love transforming creative ideas into digital spaces that feel inviting, fun, and easy to use.
         <br><br>

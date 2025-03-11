@@ -23,7 +23,7 @@
     height: 50px;
     font-size: 1rem;
     font-weight: 800;
-    background-color: #fff;
+    background-color: #000;
     color: #9966CB;
     border: 2px solid #9966CB;
     border-radius: .5rem;
@@ -73,6 +73,7 @@
     object-fit: contain;
     display: block;
     max-height: 500px;
+    border-radius: 10px;
 }
 
 .carousel-control-prev,
@@ -90,12 +91,12 @@
 }
 
 .carousel-control-prev {
-    left: 5rem;
+    left: 9rem;
     border-color: transparent #9966CB transparent transparent;
 }
 
 .carousel-control-next {
-    right: 5rem;
+    right: 9rem;
     border-color: transparent transparent transparent #9966CB; 
 }
 
@@ -116,12 +117,13 @@
 .lightbox img {
     max-width: 90%;
     max-height: 90%;
+    border-radius: 10px;
 }
 
 .lightbox .close-lightbox {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 4%;
+    right: 9%;
     color: white;
     font-size: 4rem;
     cursor: pointer;
@@ -142,12 +144,12 @@
 }
 
 .lightbox-control-prev {
-    left: 4rem;
+    left: 10rem !important;
     border-color: transparent #9966CB transparent transparent;
 }
 
 .lightbox-control-next {
-    right: 4rem;
+    right: 10rem !important;
     border-color: transparent transparent transparent #9966CB; 
 }
 
@@ -163,18 +165,22 @@
     text-align: center;
     transition: transform 0.3s ease;
     text-decoration: none !important;
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
 .project-item img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .project-item:hover {
     transform: scale(1.05);
+}
+
+.project-item h4 {
+    margin-top: 0.5rem;
 }
 
 

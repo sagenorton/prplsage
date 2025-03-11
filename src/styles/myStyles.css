@@ -8,14 +8,14 @@ html, body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-color: #FcFFFf;
+    background-color: #070707;
 }
   
 main {
     max-width: 60%;
     margin: auto;
     padding: 2rem;
-    background-color: #ffffff;
+    background-color: #000;
     display: flex;
     flex-direction: column;
 }
@@ -23,7 +23,7 @@ main {
 
 .content {
     flex: 1;
-    background-color: #ffffff;
+    background-color: #000;
 }
 
 /*Typography*/
@@ -31,11 +31,13 @@ main {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: .85rem !important;
+    color: #fff;
 }
 
 p {
     font-size: .85rem !important;
     margin-top: -.5rem;
+    color: #fff;
 }
 
 h1 {
@@ -51,7 +53,7 @@ h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #000;
+    color: #fff;
     padding: 0rem 15rem;
 }
 
@@ -70,7 +72,7 @@ h3::after {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #000;
+    background-color: #fff;
     position: absolute;
     bottom: -6px;
     left: 0;
@@ -81,7 +83,7 @@ h4 {
     font-size: 1rem;
     font-weight: 700;
     margin-top: -.5rem;
-    color: #000;
+    color: #fff;
 }
 
 h5 {
@@ -151,20 +153,57 @@ footer {
 hr {
     border: 0;
     height: 3px;
-    background: #000;
+    background: #9966cb;
     width: clamp(80%, 85%, 90%);
     margin: 3rem auto;
     position: relative;
     left: 0;
 }
 
-.hero {
-    display: block;
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     width: 100%;
-    max-width: 70%;
-    height: auto;
-    margin: 1rem auto;
-    padding-bottom: 1rem;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+#heroVideo {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .speaker-icon {
+    position: absolute;
+    bottom: 2%;
+    right: 25%;
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    cursor: pointer;
+    font-size: clamp(18px, 2vw, 24px);
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+
+.speaker-icon:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+.video-container p {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: clamp(14px, 1.5vw, 18px);
+    font-style: italic;
+    text-align: center;
 }
 
 .about-me {
