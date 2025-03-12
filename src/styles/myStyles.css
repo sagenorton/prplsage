@@ -226,15 +226,22 @@ hr {
 
 /* Ensures images & text are centered */
 .skill-icon {
-    width: 80px;
+    width: 150px;
     height: auto;
     transition: opacity 0.3s ease-in-out;
+}
+
+.skill-description b {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
 }
 
 .skill-description {
     position: absolute;
     width: 80%;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #000;
     opacity: 0;
     text-align: center;
