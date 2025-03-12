@@ -21,7 +21,7 @@ It’s Alive! is a fitness app that motivates users to stay active by caring for
 * **Motivated User Activity:** By gamifying fitness with a virtual pet that responds to real-time activity tracking, the app successfully encouraged users to stay active, making exercise feel more engaging and rewarding.
 * **Enhanced User Experience with Apple Watch Integration:** Real-time Apple Watch data integration allowed for immediate feedback on fitness progress, creating an interactive experience that connects users’ physical activity to virtual rewards.
 
-### Tools Used
+### Technologies & Tools
 * **Design:** Adobe Illustrator, Figma
 
 ### Features

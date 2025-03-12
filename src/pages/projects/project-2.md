@@ -20,7 +20,7 @@ Developed a mobile-first website for Mahalo Promotions, tailored to a predominan
 * **Mobile-First Optimization:** With 80% of the client’s user base accessing the site on mobile, the mobile-first design improved accessibility and enhanced user experience, making it easier for fans to access events and artist information on the go.
 * **Streamlined Client Updates:** The backend was structured for quick, straightforward updates, enabling the client to manage content changes efficiently and keep the website fresh without technical support.
 
-### Tools Used
+### Technologies & Tools
 * **Development:** WordPress, HTML, CSS, JavaScript
 * **Design:** Adobe Illustrator, Photoshop
 

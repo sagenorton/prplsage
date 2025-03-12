@@ -21,7 +21,7 @@ Fowl Play is an interactive, Thanksgiving-themed escape room game that merges di
 * **Enhanced Immersive Experience:** Created a unique, multi-platform escape room experience that combined physical puzzles with digital interactions, capturing player interest and providing a memorable, interactive storyline.
 * **Encouraged Team Collaboration:** Designed puzzles and challenges that required players to communicate and work together, enhancing the social and collaborative aspects of the escape room experience.
 
-### Tools Used
+### Technologies & Tools
 * **Design:** Figma, Adobe Illustrator, InDesign, Photoshop
 
 ### Features

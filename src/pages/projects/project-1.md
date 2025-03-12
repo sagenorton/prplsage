@@ -22,7 +22,7 @@ The SFCC Grad Show website was designed to showcase the graduating class’s por
 * **National Recognition:** The website was awarded Silver Addy and Ascender Awards for its innovative 3D-themed design and accessible user experience, reflecting the quality of SFCC’s Graphic Design program.
 * **Increased Engagement:** Enhanced event visibility and engagement, allowing visitors to explore student portfolios and event details in an engaging, visually dynamic online environment.
 
-### Tools Used
+### Technologies & Tools
 * **Development:** WordPress, HTML, CSS, JavaScript
 * **Design:** Adobe Illustrator, Photoshop, InDesign, After Effects
 

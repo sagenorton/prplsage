@@ -21,7 +21,7 @@ Designed educational signage for 49° North Mountain Resort, featuring English a
 * **Promoted Cultural Awareness:** The bilingual signs fostered educational engagement by incorporating both English and Salish languages, supporting the resort’s mission to honor and promote local tribal culture.
 * **Increased Visitor Interaction:** The visually appealing and informative signage encourage more visitors to engage with the natural environment, turning trail areas into educational spaces that highlight indigenous heritage and local wildlife.
 
-### Tools Used
+### Technologies & Tools
 * **Design:** Adobe Illustrator, Procreate
 
 ### Features
