@@ -1,32 +1,33 @@
 ---
 layout: ../../layouts/WorkLayout.astro
-title: "DESIGN RESEARCH APP: DESN LBRY"
-teaserimage: '../assets/DesnLbry/DesnLbryTeaser.jpg'
+title: 'FOWL PLAY: THE THANKSGIVING ESCAPE ROOM'
+teaserimage: '../assets/FowlPlay/FowlPlayTeaser.jpg'
 hero: [
-'/DesnLbry/DesnLbryHero.jpg',
-'/DesnLbry/LessonPlan.jpg',
-'/DesnLbry/StyleGuide.jpg',
-'/DesnLbry/HiFi.jpg'
+'/FowlPlay/FowlPlayHero.jpg',
+'/FowlPlay/PlayerGuide.jpg',
+'/FowlPlay/CharacterCards.jpg',
+'/FowlPlay/GobbleFeed.jpg',
+'/FowlPlay/Puzzles.jpg'
 ]
-link: 'https://www.figma.com/proto/Nq1uYLRSWs7p5HBDt1nvmB/DESN-LBRY?node-id=2003-1794&t=ldwgX5AX6IEgCIUi-1&scaling=scale-down&content-scaling=fixed&page-id=2003%3A2&starting-point-node-id=2003%3A4'
+link: 'https://www.figma.com/design/GqI69E2V0PHuRIZuIISYjL/Fowl-Play%3A-A-Thanksgiving-Escape-Room?node-id=0-1&t=DwQltuCdIeX3Ib2w-1'
 ---
 
 ### Project Summary
 <div class="project-summary">
-Established a comprehensive design system to ensure visual consistency and scalability across digital projects. By creating reusable components and defining design standards, I provided a resource accessible to designers and non-designers alike, fostering collaboration and shared design knowledge.
+Fowl Play is an interactive, Thanksgiving-themed escape room game that merges digital and physical elements for an engaging multi-platform experience. I designed story-driven puzzles and character cards, weaving together online and physical clues to create a cohesive and immersive challenge for players.
 </div>
 
 ### Project Impact
-* **Improved Brand Consistency:** Established a cohesive design system with reusable components, ensuring that design elements remained consistent across all content.
-* **Accessible Design Resource for All Teams:** Created a design library that makes design principles and components easy to understand for non-designers, fostering a shared understanding and collaboration across departments.
+* **Enhanced Immersive Experience:** Created a unique, multi-platform escape room experience that combined physical puzzles with digital interactions, capturing player interest and providing a memorable, interactive storyline.
+* **Encouraged Team Collaboration:** Designed puzzles and challenges that required players to communicate and work together, enhancing the social and collaborative aspects of the escape room experience.
 
 ### Tools Used
-* **Design:** Figma
+* **Design:** Figma, Adobe Illustrator, InDesign, Photoshop
 
 ### Features
 
-* **Optimized Homepage:** Refined and enhanced the user experience of the homepage for improved interaction and navigation.
-* **Engaging Tutorials and Quizzes:** Developed mini-quizzes alongside concise tutorials to reinforce key design concepts, ensuring users retain and apply what they learn.
-* **Comprehensive Design Lessons:** Crafted and refined lessons, with a particular focus on color theory, offering progressive learning that covers both basics and advanced applications.
-* **Style Guide:** Created a cohesive visual identity, formalizing typography and color usage to ensure a consistent and engaging user experience.
-* **High-Fidelity Prototype:** Designed and tested a hi-fi prototype that delivers an interactive and accessible learning experience, including intuitive navigation and visually rich educational content.
+* **Interactive Gameplay:** Combined physical and digital elements for an immersive escape room experience.
+* **Humorous Storyline:** Set at a chaotic Thanksgiving dinner, players work to uncover the mystery of the missing turkey.
+* **Custom Puzzles:** Included engaging puzzles like a word search, crossword, word scramble, and pictogram to advance the storyline.
+* **Character Cards:** Provided detailed character profiles that aided in solving the mystery.
+* **Gobble Feed:** A digital, interactive social media feed added modern elements to the traditional puzzle-solving format.

@@ -1,33 +1,33 @@
 ---
 layout: ../../layouts/WorkLayout.astro
-title: 'FOWL PLAY: THE THANKSGIVING ESCAPE ROOM'
-teaserimage: '../assets/FowlPlay/FowlPlayTeaser.jpg'
+title: "IT'S ALIVE! VIRTUAL PET"
+teaserimage: '../assets/itsAlive/ItsAliveTeaser.jpg'
 hero: [
-'/FowlPlay/FowlPlayHero.jpg',
-'/FowlPlay/PlayerGuide.jpg',
-'/FowlPlay/CharacterCards.jpg',
-'/FowlPlay/GobbleFeed.jpg',
-'/FowlPlay/Puzzles.jpg'
+'/itsAlive/ItsAliveHero.jpg',
+'/itsAlive/Discovery.jpg',
+'/itsAlive/Research.jpg',
+'/itsAlive/LoFi.jpg',
+'/itsAlive/HiFi.jpg'
 ]
-link: 'https://www.figma.com/design/GqI69E2V0PHuRIZuIISYjL/Fowl-Play%3A-A-Thanksgiving-Escape-Room?node-id=0-1&t=DwQltuCdIeX3Ib2w-1'
+link: 'https://www.figma.com/proto/ro2Vfr2zVIMOwcR628fDxD/UX-1-Project-%235%3A-Choose-Your-Own?node-id=451-2191&t=vIXbWgBPq11v6vw2-1&scaling=scale-down&content-scaling=fixed&page-id=451%3A1384&starting-point-node-id=451%3A4118'
 ---
 
 ### Project Summary
 <div class="project-summary">
-Fowl Play is an interactive, Thanksgiving-themed escape room game that merges digital and physical elements for an engaging multi-platform experience. I designed story-driven puzzles and character cards, weaving together online and physical clues to create a cohesive and immersive challenge for players.
+It’s Alive! is a fitness app that motivates users to stay active by caring for a virtual pet, with activity progress tracked in real-time through Apple Watch integration. I designed the UX/UI to be engaging and rewarding, allowing users to see their efforts directly impact their pet’s evolution and customization.
 </div>
 
 ### Project Impact
-* **Enhanced Immersive Experience:** Created a unique, multi-platform escape room experience that combined physical puzzles with digital interactions, capturing player interest and providing a memorable, interactive storyline.
-* **Encouraged Team Collaboration:** Designed puzzles and challenges that required players to communicate and work together, enhancing the social and collaborative aspects of the escape room experience.
+* **Motivated User Activity:** By gamifying fitness with a virtual pet that responds to real-time activity tracking, the app successfully encouraged users to stay active, making exercise feel more engaging and rewarding.
+* **Enhanced User Experience with Apple Watch Integration:** Real-time Apple Watch data integration allowed for immediate feedback on fitness progress, creating an interactive experience that connects users’ physical activity to virtual rewards.
 
 ### Tools Used
-* **Design:** Figma, Adobe Illustrator, InDesign, Photoshop
+* **Design:** Adobe Illustrator, Figma
 
 ### Features
 
-* **Interactive Gameplay:** Combined physical and digital elements for an immersive escape room experience.
-* **Humorous Storyline:** Set at a chaotic Thanksgiving dinner, players work to uncover the mystery of the missing turkey.
-* **Custom Puzzles:** Included engaging puzzles like a word search, crossword, word scramble, and pictogram to advance the storyline.
-* **Character Cards:** Provided detailed character profiles that aided in solving the mystery.
-* **Gobble Feed:** A digital, interactive social media feed added modern elements to the traditional puzzle-solving format.
+* **Fitness Integration:** Seamlessly syncs with Apple's fitness app and watch, encouraging users to stay active by evolving their virtual pet based on real-world physical activity.
+* **Customizable Challenges:** Allows users to set and adjust fitness goals, tailored to their individual needs and preferences.
+* **Gamified Experience:** Users level up their ghost buddy through activity, adding a playful, engaging dimension to their fitness routine.
+* **Spooky Aesthetic:** Neon green and purple colors, paired with a graveyard backdrop, create a unique and immersive spooky theme.
+* **High-Fidelity Prototype:** The app features interactive prototypes showcasing the pet evolution process and simulated Apple Watch connectivity, offering a fully clickable preview of the app’s core features.
