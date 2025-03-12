@@ -5,14 +5,14 @@ if (typeof window !== "undefined") {
         const video = document.getElementById("heroVideo");
         const muteToggle = document.getElementById("muteToggle");
         let isPausedAtCheckpoint = false;
-        let isPlayingFullAnimation = false; // Tracks if animation should continue fully
-        const pauseTime = 6.9; // Time to pause at
+        let isPlayingFullAnimation = false;
+        const pauseTime = 7;
 
         // Ensure video starts muted to avoid autoplay issues
         video.muted = true;
         video.autoplay = true;
         video.loop = false;
-        video.play(); // Ensure autoplay
+        video.play();
 
         // Once metadata is loaded, play the video
         video.addEventListener("loadedmetadata", function () {
@@ -32,16 +32,16 @@ if (typeof window !== "undefined") {
             if (isPausedAtCheckpoint) {
                 video.play();
                 isPausedAtCheckpoint = false;
-                isPlayingFullAnimation = true; // Allow video to fully play
+                isPlayingFullAnimation = true;
             }
         });
 
         // When the video fully finishes, restart from 0s and pause at 6.9s again
         video.addEventListener("ended", function () {
-            video.currentTime = 0; // Restart from beginning
+            video.currentTime = 0;
             video.play();
             isPausedAtCheckpoint = false;
-            isPlayingFullAnimation = false; // Reset flag so it pauses at 6.9s again
+            isPlayingFullAnimation = false;
         });
 
         // Mute/unmute toggle
