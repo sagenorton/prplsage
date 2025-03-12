@@ -152,12 +152,13 @@ footer {
 
 hr {
     border: 0;
-    height: 3px;
+    height: 5px;
     background: #9966cb;
-    width: clamp(80%, 85%, 90%);
+    width: clamp(90%, 95%, 100%);
     margin: 3rem auto;
     position: relative;
     left: 0;
+    border-radius: 10px;
 }
 
 .video-container {
@@ -193,6 +194,61 @@ hr {
 .speaker-icon:hover {
     background: #9966cbb3;
   }
+
+.what-i-do {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 1.5rem; /* Space between items */
+    max-width: 400px; /* Controls overall width */
+    margin: 0 auto; /* Centers the grid */
+    justify-content: center; /* Extra centering */
+    padding-bottom: 2rem;
+}
+
+.skill-item {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    width: 225px; /* Square size */
+    height: 225px;
+    background: #9966cb; /* Purple background */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Ensures images & text are centered */
+.skill-icon {
+    width: 80px;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.skill-description {
+    position: absolute;
+    width: 80%;
+    font-size: 1rem;
+    color: #000;
+    opacity: 0;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.skill-item:hover .skill-icon {
+    opacity: 0;
+}
+
+.skill-item:hover .skill-description {
+    opacity: 1;
+}
 
 .about-me {
     margin-top: -2rem;
