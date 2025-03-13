@@ -248,14 +248,6 @@
         max-height: 400px;
     }
 
-    .carousel-control-prev {
-        left: 2rem;
-    }
-
-    .carousel-control-next {
-        right: 2rem;
-    }
-
 }
 
 @media (max-width: 480px) {
@@ -286,16 +278,4 @@
         width: 100%;
         height: auto;
       }
-
-      .carousel-control-prev,
-      .lightbox-control-prev {
-        border-width: 15px;
-        left: -2rem;
-    }
-    
-    .carousel-control-next,
-    .lightbox-control-next {
-        right: -2rem;
-        border-width: 15px;
-    }
 }

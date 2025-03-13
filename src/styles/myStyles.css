@@ -179,7 +179,7 @@ hr {
     cursor: pointer;
   }
 
-  .speaker-icon {
+.speaker-icon {
     position: absolute;
     bottom: 7%;
     right: 30%;
@@ -323,8 +323,16 @@ hr {
   @media (max-width: 834px) {
 
     .skills-grid {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
+        max-width: 300px;
+        margin: 0 auto;
+        justify-items: center;
     }
+
+    #heroVideo {
+        width: 120%;
+      }
 
     main {
         max-width: 80%;
@@ -353,10 +361,6 @@ hr {
 }
 
 @media (max-width: 480px) {
-
-    .skills-grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
 
     h1 {
         font-size: 1.5rem;
