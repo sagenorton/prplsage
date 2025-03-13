@@ -12,22 +12,22 @@ hero: [
 link: 'https://www.figma.com/proto/ro2Vfr2zVIMOwcR628fDxD/UX-1-Project-%235%3A-Choose-Your-Own?node-id=451-2191&t=vIXbWgBPq11v6vw2-1&scaling=scale-down&content-scaling=fixed&page-id=451%3A1384&starting-point-node-id=451%3A4118'
 ---
 
-### Project Summary
-<div class="project-summary">
-It’s Alive! is a fitness app that motivates users to stay active by caring for a virtual pet, with activity progress tracked in real-time through Apple Watch integration. I designed the UX/UI to be engaging and rewarding, allowing users to see their efforts directly impact their pet’s evolution and customization.
-</div>
+### Project Summary  
+<div class="project-summary">  
+It’s Alive! is a fitness app that encourages users to stay active by caring for a virtual pet, with real-time activity tracking through Apple Watch integration. I designed the UX/UI to be visually engaging and rewarding, allowing users to see their efforts directly impact their pet’s evolution, customization, and overall well-being.  
+</div>  
 
-### Project Impact
-* **Motivated User Activity:** By gamifying fitness with a virtual pet that responds to real-time activity tracking, the app successfully encouraged users to stay active, making exercise feel more engaging and rewarding.
-* **Enhanced User Experience with Apple Watch Integration:** Real-time Apple Watch data integration allowed for immediate feedback on fitness progress, creating an interactive experience that connects users’ physical activity to virtual rewards.
+### Project Impact  
+- **Encouraged Consistent Activity** – Gamified fitness by linking exercise progress to a virtual pet’s development, making workouts feel more engaging and rewarding.  
+- **Enhanced User Experience with Apple Watch Integration** – Provided real-time feedback on fitness progress, seamlessly connecting physical activity to in-app interactions and rewards.  
 
-### Technologies & Tools
-* **Design:** Adobe Illustrator, Figma
+### Technologies & Tools  
+- **Design** – Adobe Illustrator, Figma  
 
-### Features
+### Features  
+- **Fitness Integration** – Syncs with Apple’s fitness app and watch, rewarding users for staying active by evolving their virtual pet based on real-world movement.  
+- **Customizable Challenges** – Allows users to set and adjust fitness goals, making the experience flexible and personalized.  
+- **Gamified Experience** – Turns workouts into a fun, interactive journey by leveling up a virtual ghost buddy through activity milestones.  
+- **Spooky Aesthetic** – Neon green and purple tones, paired with a graveyard-themed backdrop, create a playful, immersive fitness environment.  
+- **High-Fidelity Prototype** – Features an interactive prototype showcasing pet evolution, simulated Apple Watch connectivity, and core app interactions.  
 
-* **Fitness Integration:** Seamlessly syncs with Apple's fitness app and watch, encouraging users to stay active by evolving their virtual pet based on real-world physical activity.
-* **Customizable Challenges:** Allows users to set and adjust fitness goals, tailored to their individual needs and preferences.
-* **Gamified Experience:** Users level up their ghost buddy through activity, adding a playful, engaging dimension to their fitness routine.
-* **Spooky Aesthetic:** Neon green and purple colors, paired with a graveyard backdrop, create a unique and immersive spooky theme.
-* **High-Fidelity Prototype:** The app features interactive prototypes showcasing the pet evolution process and simulated Apple Watch connectivity, offering a fully clickable preview of the app’s core features.

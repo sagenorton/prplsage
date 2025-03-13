@@ -1,33 +1,17 @@
-# PRPL SAGE Portfolio
+# PRPL SAGE Portfolio  
 
-Welcome to **PRPL SAGE**, my portfolio site showcasing my work as an **Interactive Designer**. This platform highlights my skills in web development, UX/UI design, and graphic design through curated projects and a glimpse into my professional journey.
+Welcome to **PRPL SAGE**, my portfolio site showcasing my work as a **Front-End Developer**. This platform highlights my skills in **web design & development, UX/UI, game design, and motion design** through a curated selection of projects that blend creativity with technical execution.  
 
-## Features
+## Features  
 
-- **Interactive Homepage**: Highlights featured projects and includes a brief "About Me" section.
-- **Project Pages**: Each featured project links to a dedicated page with an overview of its goals, process, and results.
-- **Responsive Design**: Optimized for seamless viewing on any device.
-- **Clean Aesthetic**: A minimalist, modern design that focuses on functionality and user experience.
+- **Interactive Homepage** – Features a selection of six projects spanning web development, UX/UI, game design, and motion design.  
+- **Project Pages** – Each project has a dedicated page outlining its features, impact, and process.  
+- **Responsive & Accessible** – Optimized for seamless viewing across all devices with accessibility best practices in mind.  
+- **Minimalist & Functional Aesthetic** – Clean, modern design focused on user experience and intuitive navigation.  
 
-## Technologies Used
+## Tech Stack  
 
-- **Astro**: Static site generator for building the site.
-- **GitHub**: Version control and collaboration.
-- **Netlify**: Deployment platform.
-
-## Getting Started
-
-To run this project locally, you'll need to clone the repository and install the dependencies.
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
-
-# Navigate into the directory
-cd your-repo-name
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
+- **HTML, CSS, JavaScript** – Core technologies for structuring, styling, and adding interactivity.  
+- **Astro** – Static site generator used for building the site efficiently.  
+- **GitHub** – Version control for tracking development and collaboration.  
+- **Netlify** – Hosting and deployment for a seamless, fast-loading experience.  

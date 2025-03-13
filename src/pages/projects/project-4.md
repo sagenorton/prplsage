@@ -12,22 +12,22 @@ hero: [
 ]
 ---
 
-### Project Summary
-<div class="project-summary">
-Designed educational signage for 49° North Mountain Resort, featuring English and Salish language to support cultural awareness and education on local wildlife. In collaboration with tribal partners, I created 15 animal illustrations that were carefully integrated into the environment, promoting a respectful and informative experience for visitors.
-</div>
+### Project Summary  
+<div class="project-summary">  
+Designed educational signage for 49° North Mountain Resort to promote cultural awareness and wildlife education. In collaboration with tribal partners, I created 15 bilingual signs featuring English and Salish language, along with custom animal illustrations designed to blend seamlessly into the natural environment.  
+</div>  
 
-### Project Impact
-* **Promoted Cultural Awareness:** The bilingual signs fostered educational engagement by incorporating both English and Salish languages, supporting the resort’s mission to honor and promote local tribal culture.
-* **Increased Visitor Interaction:** The visually appealing and informative signage encourage more visitors to engage with the natural environment, turning trail areas into educational spaces that highlight indigenous heritage and local wildlife.
+### Project Impact  
+- **Promoted Cultural Awareness** – Developed bilingual signage that supported the resort’s mission to honor indigenous heritage and educate visitors on local tribal culture.  
+- **Enhanced Visitor Engagement** – Transformed trail areas into interactive learning spaces, encouraging guests to connect with both nature and cultural history.  
 
-### Technologies & Tools
-* **Design:** Adobe Illustrator, Procreate
+### Technologies & Tools  
+- **Design** – Adobe Illustrator, Procreate  
 
-### Features
+### Features  
+- **Cultural & Educational Focus** – Designed 15 unique animal illustrations labeled in both English and Salish to promote wildlife education and cultural appreciation.  
+- **Seamless Environmental Integration** – Created signage with wooden elements and engraved names to harmonize with the natural surroundings.  
+- **Custom Illustrations** – Used Adobe Illustrator and Procreate to develop detailed, textured animal characters that were engaging and informative.  
+- **Large-Scale Informational Signage** – Designed a 3x5 ft sign incorporating animal characters, tribal logos, and educational content for visitors.  
+- **Project Adaptability** – Adjusted designs to include Spokane Tribe translations, ensuring accuracy and cultural respect throughout the project.  
 
-* **Cultural and Educational Focus:** Designed 15 unique animal characters labeled in English and Salish, promoting both wildlife education and cultural awareness.
-* **Seamless Integration with Nature:** The signage featured wooden elements and engraved names, designed to blend into the natural environment.
-* **Custom Illustrations:** Utilized Adobe Illustrator and Procreate to create detailed, textured animal characters that were both engaging and educational.
-* **Informational Sign:** Designed a 3x5ft sign combining animal characters, tribal logos, and explanatory text to provide a comprehensive educational guide for visitors.
-* **Adaptability:** The project required revisions, including the addition of Spokane Tribe translations, demonstrating flexibility in meeting evolving client needs.
