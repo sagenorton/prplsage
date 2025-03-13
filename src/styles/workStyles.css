@@ -6,7 +6,7 @@
 
 .project-summary {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 1.6;
     margin-top: 0.5rem;
 }
@@ -144,12 +144,12 @@
 }
 
 .lightbox-control-prev {
-    left: 10rem !important;
+    left: 10rem;
     border-color: transparent #9966CB transparent transparent;
 }
 
 .lightbox-control-next {
-    right: 10rem !important;
+    right: 10rem;
     border-color: transparent transparent transparent #9966CB; 
 }
 
@@ -207,11 +207,24 @@
     }
 
     .carousel-control-prev {
-        left: 2rem;
+        left: 0rem;
     }
 
     .carousel-control-next {
-        right: 2rem;
+        right: 0rem;
+    }
+
+    .lightbox-control-prev {
+        left: 3rem;
+    }
+
+    .lightbox-control-next {
+        right: 3rem;
+    }
+
+    .lightbox .close-lightbox {
+        top: 2%;
+        right: 6%;
     }
     
 }
