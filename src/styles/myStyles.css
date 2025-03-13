@@ -332,7 +332,12 @@ hr {
 
     #heroVideo {
         width: 120%;
-      }
+    }
+
+    .speaker-icon {
+        bottom: 5%;
+        right: 5%;
+    }
 
     main {
         max-width: 80%;
