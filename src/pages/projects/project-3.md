@@ -5,7 +5,7 @@ teaserimage: '../assets/Calculator/CalculatorTeaser.jpg'
 hero: [
 '/Calculator/CalculatorHero.jpg'
 ]
-link: 'https://circle-m-calculator.netlify.app/'
+link: 'https://master-trucking-calculator.netlify.app/'
 ---
 
 ### Project Summary  
