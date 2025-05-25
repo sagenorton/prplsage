@@ -23,7 +23,7 @@
     height: 50px;
     font-size: 1rem;
     font-weight: 800;
-    background-color: #000;
+    background-color: #fff;
     color: #9966CB;
     border: 2px solid #9966CB;
     border-radius: .5rem;
@@ -33,7 +33,7 @@
 
 .project-button:hover {
     background-color: #9966CB;
-    color: #fff;
+    color: #000;
     cursor: pointer;
 }
 
@@ -124,7 +124,7 @@
     position: absolute;
     top: 4%;
     right: 9%;
-    color: white;
+    color: #fff;
     font-size: 4rem;
     cursor: pointer;
 }

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Navigation from '../components/Navigation.astro' ;
 
 // apply stylesheets
 import "../styles/workStyles.css";
@@ -8,6 +9,8 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout>
+
+  <Navigation />
 
   <div class="carousel">
     <div class="carousel-inner">

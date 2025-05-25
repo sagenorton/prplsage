@@ -4,15 +4,15 @@ import Work from './work.astro';
 const pageTitle = "Home";
 ---
 
+<div class="video-container">
+    <video id="heroVideo" src="/assets/logoAnimation.mp4" playsinline muted></video>
+    <!-- Speaker Icon -->
+    <button id="muteToggle" class="speaker-icon">🔇</button>
+</div>
+
 <BaseLayout pageTitle={pageTitle} class="homepage">
 	
 	<div class="container">
-        <div class="video-container">
-            <video id="heroVideo" src="/assets/logoAnimation.mp4" playsinline muted></video>
-            <!-- Speaker Icon -->
-            <button id="muteToggle" class="speaker-icon">🔇</button>
-        </div>
-        <hr>
         <section class="what-i-do">
             <h1>WHAT I DO</h1>
             <div class="skills-grid">
