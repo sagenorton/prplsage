@@ -12,7 +12,7 @@ html, body {
 }
   
 main {
-    max-width: 60%;
+    max-width: 80%;
     margin: auto;
     padding: 2rem;
     background-color: #FcFFFf;
@@ -94,7 +94,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1.05rem;
+    font-size: 1rem;
     font-weight: 100 !important;
     margin-top: -1rem;
 }
@@ -167,13 +167,14 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
+    margin: auto;
     background-color: #000;
+    padding: 2rem;
   }
 
 #heroVideo {
-    width: 80%;
+    width: 85%;
     height: auto;
     display: block;
     cursor: pointer;
@@ -205,8 +206,8 @@ hr {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
-    max-width: 800px;
     margin: 0 auto;
+    max-width: 90%;
     justify-content: center;
     padding-bottom: 2rem;
 }
@@ -285,7 +286,7 @@ hr {
 
   /* Responsive Design */
 
-  @media (max-width: 1440px) {
+  @media (max-width: 1400px) {
 
     hr {
         width: 90%; 
