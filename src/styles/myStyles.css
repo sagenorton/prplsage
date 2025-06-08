@@ -81,7 +81,7 @@ h3::after {
 
 h4 {
     font-family: 'Roboto Slab', serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-top: -.5rem;
     color: #000;
@@ -94,7 +94,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 100 !important;
     margin-top: -1rem;
 }
@@ -204,7 +204,7 @@ hr {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, auto);
     gap: 1.5rem;
     margin: 0 auto;
     max-width: 90%;
@@ -232,20 +232,23 @@ hr {
 
 .skill-description b {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     display: block;
     margin-bottom: 10px;
     line-height: 1;
 }
 
 .skill-description {
+    font-weight: 400;
+    font-size: 1.15rem !important;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    color: #fff;
+    color: black;
     opacity: 0;
     text-align: center;
     transition: opacity 0.3s ease-in-out;
@@ -260,26 +263,25 @@ hr {
 }
 
 .about-me {
-    margin-top: -2rem;
-    padding-left: 7rem;
-    margin-right: -4rem;
     display: flex;
     align-items: center;
+    justify-content: center;
+    max-width: 1000px; 
+    margin: 0 auto; 
 }
 
 .about-me-text {
-    margin-top: -3rem;
-    flex: 4;
+    flex: 1;
 }
 
 .about-me-image {
-    margin-top: 2rem;
-    flex: 3;
-    text-align: left;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .about-me-image img {
-    max-width: 75%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -291,6 +293,14 @@ hr {
     hr {
         width: 90%; 
         margin: 2.5rem auto;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 1rem;
     }
 
     .skills-grid {
@@ -361,8 +371,12 @@ hr {
 
     .about-me-image {
         margin-top: 0;
-        max-width: 100%;
+        max-width: 80%;
         text-align: center;
+    }
+
+    h6 {
+        font-size: .8rem;
     }
 }
 
@@ -386,7 +400,6 @@ hr {
     }
 
     h6 {
-        font-size: .8rem;
         padding-top: 1rem;
     }
 

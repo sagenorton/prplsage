@@ -9,6 +9,7 @@ const pageTitle = "WORK";
 const allProjects = await Astro.glob("../pages/projects/*.md");
 ---
 
+<div class="projects-grid-container">
     <div class="projects-grid">
         {allProjects.map((post) => (
             <a href={post.url} class="project-item">
@@ -17,3 +18,4 @@ const allProjects = await Astro.glob("../pages/projects/*.md");
             </a>
         ))}
     </div>
+</div>

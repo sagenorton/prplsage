@@ -155,6 +155,12 @@
 
 
 /* Projects Grid */
+.projects-grid-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -231,6 +237,10 @@
 
   
   @media (max-width: 834px) {
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     .project-container {
         padding: 0rem 4rem;
