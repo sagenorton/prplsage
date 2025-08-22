@@ -10,7 +10,7 @@ hero: [
 '/SFCC/roughs.jpg',
 '/SFCC/finals.jpg'
 ]
-link: 'unfortunately this site is unavailable'
+link: 'https://sfccdesign.com/2023gradshow/'
 ---
 
 ### Project Summary  
